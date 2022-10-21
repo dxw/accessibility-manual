@@ -1,0 +1,27 @@
+# To run locally, replace the `backend` config with the lines below and run:
+#   cd src && npx netlify-cms-proxy-server
+#
+# local_backend: true
+# backend:
+#   name: git-gateway
+backend:
+  name: github
+  repo: dxw/accessibility-manual
+  branch: main
+  open_authoring: true
+media_library:
+  name: disabled
+media_folder: _images
+publish_mode: editorial_workflow
+show_preview_links: true
+collections:
+  - name: home
+    label: Home
+    label_singular: Home page
+    files:
+      - name: home
+        label: Home page
+        file: index.md
+        fields:
+          - { label: Title, name: title, widget: string, required: true }
+          - { label: Body, name: body, widget: markdown, required: true }

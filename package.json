@@ -1,0 +1,7 @@
+{
+  "name": "dxw-accessibility-manual",
+  "private": true,
+  "devDependencies": {
+    "normalize.css": "8.0.1"
+  }
+}
