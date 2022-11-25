@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>
+      {% if page.title and page.title != "dxw Accessibility Manual" %}{{ page.title | escape }} - {% endif %}Accessibility Manual - dxw
+    </title>
+
+    <link rel="stylesheet" href="/assets/main.css" />
+  </head>
+  <body>
+    {% include navbar.html %}
+    <main>
+      {% include related.html %}
+      {% include page-content.html %}
+    </main>
+    {% include contribute.html %}
+  </body>
+</html>
