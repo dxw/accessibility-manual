@@ -1,9 +1,16 @@
-# To run locally, replace the `backend` config with the lines below and run:
-#   cd src && npx netlify-cms-proxy-server
+# To run netlify-cms locally:
+#
+# 1. Replace the `backend` config with the commented configuration below.
+# 2. Remove the `src/` prefix from `file` and `folder` attributes to make them
+#    relative to the site URL, not relative to the repo root (which is needed
+#    by the `github` backend which uses the GitHub API endpoint to find files).
+# 3. On the command line, run:
+#        cd src && npx netlify-cms-proxy-server
 #
 # local_backend: true
 # backend:
 #   name: git-gateway
+
 backend:
   name: github
   repo: dxw/accessibility-manual
@@ -21,7 +28,37 @@ collections:
     files:
       - name: home
         label: Home page
-        file: index.md
+        file: src/index.md
         fields:
           - { label: Title, name: title, widget: string, required: true }
           - { label: Body, name: body, widget: markdown, required: true }
+
+  - name: content
+    label: Content
+    label_singular: Content page
+    folder: src/content
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Permalink, name: permalink, widget: hidden, default: /:path/:basename/ }
+      - { label: Body, name: body, widget: markdown, required: true }
+
+  - name: development
+    label: Development
+    label_singular: Development page
+    folder: src/development
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Permalink, name: permalink, widget: hidden, default: /:path/:basename/ }
+      - { label: Body, name: body, widget: markdown, required: true }
+
+  - name: interaction-design
+    label: Interaction design
+    label_singular: Interaction design page
+    folder: src/interaction-design
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Permalink, name: permalink, widget: hidden, default: /:path/:basename/ }
+      - { label: Body, name: body, widget: markdown, required: true }
