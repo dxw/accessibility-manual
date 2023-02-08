@@ -1,12 +1,12 @@
 ---
-title: Development
+title: Accessibility for developers
 related_order: 1
 ---
-Building accessible digital services depends on a test-driven approach to make them as robust and operable as possible for as many users as possible.
+Building accessible digital services depends in part on a test-driven approach to help make them as robust and operable as possible for as many users as possible.
 
 ## This part of the manual provides guidance on:
 
-* Coding accessibly
+* How to write accessible code
 * Using ARIA correctly
 * How to test with a keyboard
 * How to test with screen readers
