@@ -8,7 +8,7 @@ Remembering when to test, what to test and how to test that a website, page, or 
 
 Begin with an understanding of what you need to test in every project. This should include checking your work regularly for the following issues: 
 
-- Alternative text for non-text content
+- Alternative text for non-text content, such as in images and checking for videos for captions
 - A valid and logical heading hierarchy
 - All controls, buttons, and links have meaningful text which makes sense out of context
 - Inputs correctly associated with meaningful labels
