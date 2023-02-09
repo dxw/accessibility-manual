@@ -27,7 +27,7 @@ Placing text over textured or photo backgrounds can present challenges for reada
 
 ### Colour contrast checker
 
-When testing colour contrast ratio, there are some free online tools for us to choose. The contrast checker from WebAIM is one of the most popular ones.
+When testing colour contrast ratio, there are some free online tools for us to choose. [The contrast checker from WebAIM](https://webaim.org/resources/contrastchecker/) is one of the most popular ones.
 
 - - -
 
