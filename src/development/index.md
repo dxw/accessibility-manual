@@ -6,7 +6,9 @@ Building accessible digital services depends in part on a test-driven approach t
 
 **This part of the manual provides guidance on:**
 
-* What, when and how to test
+* [What do I need to test?](https://accessibility.dxw.com/development/what-do-i-need-to-test/)
+* When do I need to test?
+* How do I run tests?
 * How to write accessible code
 * Using ARIA correctly
 * How to test with a keyboard
