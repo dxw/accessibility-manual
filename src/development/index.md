@@ -4,7 +4,7 @@ related_order: 1
 ---
 Building accessible digital services depends in part on a test-driven approach to help make them as robust and operable as possible for as many users as possible.
 
-## This part of the manual provides guidance on:
+**This part of the manual provides guidance on:**
 
 * What, when and how to test
 * How to write accessible code
