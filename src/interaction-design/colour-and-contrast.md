@@ -37,13 +37,22 @@ While it may seem natural to use colour to convey information, such as using red
 
 For most users, they may see project statuses as follows:
 
+![Using red and green to convey information](/_images/colours-only-coloured.png)
+
 However, individuals with colour blindness may see it differently:
+
+![Red and green may look similar for users with colour blindness ](/_images/colours-only-bnw.png)
 
 We are not suggesting to avoid using colour entirely, but rather to complement it with other forms of conveying information. For example, adding text descriptions like this:
 
+![Using text alongside colours](/_images/colours-and-text-coloured.png)
+
 This way, even individuals with colour blindness can still understand the difference:
+
+![Users with colour blindness can still see the difference because of the text](/_images/colours-and-text-bnw.png)
 
 - - -
 
 ## WCAG 2.1 references
+
 [Guideline 1.4.3 – Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum)
