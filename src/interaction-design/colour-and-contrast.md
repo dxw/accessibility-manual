@@ -15,11 +15,19 @@ A widely held misunderstanding is that people ask "Is this colour accessible?" H
 
 Heading text is typically larger and concise. The minimum colour contrast ratio should be at least 3:1.
 
+![When colour contrast is not strong enough for heading text](/_images/heading-text-fail.png)
+
+![When colour contrast is strong enough for heading text](/_images/heading-text-pass.png)
+
 ### Body Text
 
 The main content we aim to deliver to our users is referred to as body text. This text is usually longer than heading text and smaller in size. The minimum colour contrast ratio should be 4.5:1 for better readability.
 
 However, it's important to avoid having too high of a contrast ratio as well. A full black (#000000) text on a full white background (#FFFFFF) has a contrast ratio of 21:1. This can be visually overwhelming for some users.
+
+![When colour contrast is not strong enough for body text](/_images/body-text-fail.png)
+
+![When colour contrast is strong enough for body text](/_images/body-text-pass.png)
 
 ### Text Over Textured Backgrounds
 
