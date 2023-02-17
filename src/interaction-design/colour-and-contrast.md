@@ -15,12 +15,19 @@ A widely held misunderstanding is that people ask "Is this colour accessible?" H
 
 Heading text is typically larger and concise. The minimum colour contrast ratio should be at least 3:1.
 
+![When colour contrast is not strong enough for heading text](/_images/heading-text-fail.png)
+
+![When colour contrast is strong enough for heading text](/_images/heading-text-pass.png)
+
 ### Body Text
 
 The main content we aim to deliver to our users is referred to as body text. This text is usually longer than heading text and smaller in size. The minimum colour contrast ratio should be 4.5:1 for better readability.
 
-
 However, it's important to avoid having too high of a contrast ratio as well. A full black (#000000) text on a full white background (#FFFFFF) has a contrast ratio of 21:1. This can be visually overwhelming for some users.
+
+![When colour contrast is not strong enough for body text](/_images/body-text-fail.png)
+
+![When colour contrast is strong enough for body text](/_images/body-text-pass.png)
 
 ### Text Over Textured Backgrounds
 
@@ -28,7 +35,7 @@ Placing text over textured or photo backgrounds can present challenges for reada
 
 ### Colour contrast checker
 
-When testing colour contrast ratio, there are some free online tools for us to choose. The contrast checker from WebAIM is one of the most popular ones.
+When testing colour contrast ratio, there are some free online tools for us to choose. [The contrast checker from WebAIM](https://webaim.org/resources/contrastchecker/) is one of the most popular ones.
 
 - - -
 
@@ -38,8 +45,22 @@ While it may seem natural to use colour to convey information, such as using red
 
 For most users, they may see project statuses as follows:
 
+![Using red and green to convey information](/_images/colours-only-coloured.png)
+
 However, individuals with colour blindness may see it differently:
+
+![Red and green may look similar for users with colour blindness ](/_images/colours-only-bnw.png)
 
 We are not suggesting to avoid using colour entirely, but rather to complement it with other forms of conveying information. For example, adding text descriptions like this:
 
+![Using text alongside colours](/_images/colours-and-text-coloured.png)
+
 This way, even individuals with colour blindness can still understand the difference:
+
+![Users with colour blindness can still see the difference because of the text](/_images/colours-and-text-bnw.png)
+
+- - -
+
+## WCAG 2.1 references
+
+[Guideline 1.4.3 – Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum)
