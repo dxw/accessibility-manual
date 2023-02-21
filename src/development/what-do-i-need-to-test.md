@@ -4,6 +4,8 @@ permalink: /:path/:basename/
 ---
 Remembering when to test, what to test and how to test that a website, page, or component is accessible is one of the most important considerations in your role. Whether you're working from an individual design or library, such as the GOV.UK Design System and Frontend, you should be mindful that these do not guarantee delivery of an accessible end product.
 
+![](/_images/istockphoto-1331839903-612x612-removebg-preview.png)
+
 ## What to test
 
 Begin with an understanding of what you need to test in every project. This should include checking your work regularly for the following issues: 
