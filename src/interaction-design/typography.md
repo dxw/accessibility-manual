@@ -67,5 +67,4 @@ ___
 
 ## WCAG 2.1 references
 
-[Guideline 1.4.3 – Contrast (Minimum)]
-(https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation)
+[Guideline 1.4.3 – Contrast \(Minimum\)](https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation)
