@@ -1,5 +1,5 @@
 ---
-title: dxw Accessibility Manual
+title: Accessibility at dxw
 ---
 We create public services that improve lives through embedding accessibility and inclusive design practices into the way we work. 
 
