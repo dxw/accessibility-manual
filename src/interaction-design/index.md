@@ -4,7 +4,7 @@ related_order: 1
 ---
 At dxw we think about accessibility when we’re researching, designing and developing services. 
 
-Accessible services are easier for everyone to use. Our design team designs accessible services and tests for accessibility throughout service development. test test test
+Accessible services are easier for everyone to use. Our design team designs accessible services and tests for accessibility throughout service development.
 
 This means we think about
 
