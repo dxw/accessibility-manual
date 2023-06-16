@@ -5,7 +5,8 @@ At dxw, we believe that everything we create for the web should be as easy to us
 
 ## Web content accessibility guidelines (WCAG)
 
-WCAG is a set of [guidelines for building accessible services.](https://www.w3.org/WAI/standards-guidelines/wcag/) The law says that all online public services must meet WCAG 2.1 level AA. 
+WCAG is a set of [guidelines for building accessible services.](https://www.w3.org/WAI/standards-guidelines/wcag/) The law says that all online public services must meet WCAG 2.1 level AA. 
+
 
 ## Designing for everyone
 
@@ -23,3 +24,11 @@ When we’re designing services, we think about
 * the technology users use- do they use a screen reader, special software or an [alternative input device](https://business.scope.org.uk/article/assistive-technology-devices-definitions-how-disabled-people-use-the-web)?
 * how users think - do they struggle to remember things? Are they neurodivergent?
 * how users behave - are they outdoors in bright sunshine? Do they have a slow internet connection?
+
+Your role and accessibility
+
+* User research and accessibility
+* [Interaction design and accessibility](interaction-design)
+* Service design and accessibility
+* Content design and accessibility
+* [Development and accessibility](development)
