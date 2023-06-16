@@ -1,18 +1,13 @@
 ---
-title: Accessibility for developers
+title: Developing accessible services
 related_order: 1
 ---
-Building accessible digital services depends in part on a test-driven approach to help make them as robust and operable as possible for as many users as possible.
+At dxw we think about accessibility when we’re researching, designing and developing services. 
 
-**This part of the manual provides guidance on:**
+Accessible services are easier for everyone to use. Our developers write accessible code and test for accessibility throughout service design and development. 
 
-* [What do I need to test?](/development/what-do-i-need-to-test/)
-* When do I need to test?
-* How do I run tests?
-* How to write accessible code
-* Using ARIA correctly
-* How to test with a keyboard
-* How to test with screen readers
-* Automated testing tools
-* Manual testing and guided manual testing tools
-* Understanding Authoring Tool Accessibility Guidelines (ATAG)
+This means we think about
+* what users see - do they have sight loss or colour blindness? What size screen do they use?
+* the technology users use- do they use a screen reader, special software or an alternative input device?
+* how users think - do they struggle to remember things? Are they neurodivergent?
+* how users behave - are they outdoors in bright sunshine? Do they have a slow connection? 
