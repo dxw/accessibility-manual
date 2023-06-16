@@ -1,5 +1,5 @@
 ---
-title: Videos and images
+title: Media
 permalink: /:path/:basename/
 ---
 ## Images
