@@ -1,23 +1,33 @@
 ---
-title: What do I need to test?
+title: Testing for accessibility
 permalink: /:path/:basename/
 ---
-Remembering when to test, what to test and how to test that a website, page, or component is accessible is one of the most important considerations in your role. Whether you're working from an individual design or library, such as the GOV.UK Design System and Frontend, you should be mindful that these do not guarantee delivery of an accessible end product.
+Accessibility testing is one of the most important parts of your role. 
+
+You’ll always need to test, whether you’re working from an individual design or a library like the GOV.UK Design System and Frontend.
 
 ## What to test
 
-Begin with an understanding of what you need to test in every project. This should include checking your work regularly for the following issues: 
+Check that your work 
 
-* Alternative text for non-text content, such as in images and checking for videos for captions
-* A valid and logical heading hierarchy
-* All controls, buttons, and links have meaningful text which makes sense out of context
-* Inputs correctly associated with meaningful labels
-* Keyboard navigable content with visible focus states
-* All content reflows and resizes appropriately for the screen size and viewport scale
-* Forms correctly inform the user on any errors and how to correct them
-* Markup is valid with correct properties, states, and roles which update as necessary when the page or component state changes
-* Any ARIA used is implemented with caution and valid
+* has alt text for any non-text content
+* has a logical heading structure
+* uses meaningful text that makes sense out of context for all controls, buttons and links
+* has meaningful labels associated with all text inputs
+* flows and resizes appropriately for the screen size and viewport scale
+* uses valid markup with correct properties, states and roles that update when the page or component state changes
+* uses ARIA correctly
 
-## Checklist
+Set up a checklist for all of your projects to make sure you test as many things as possible. 
 
-Have a checklist in all your projects to make sure you test as many things as possible. Refer to the [A11Y Checklist](https://www.a11yproject.com/checklist/) which uses The Web Content Accessibility Guidelines (WCAG) as a reference point.
+The [A11Y checklist](https://www.a11yproject.com/checklist/) uses the Web Content Accessibility Guidelines (WCAG) and is a good place to start. 
+
+## When to test
+
+Test often and thoroughly each time a new change, fix or feature request is created to include both automated and manual testing. 
+
+Include testing
+
+* before opening a pull request
+* when reviewing someone else's pull request 
+* when working on a previously untested project, plugin or other piece of code
