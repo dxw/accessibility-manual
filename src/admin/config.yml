@@ -23,14 +23,23 @@ show_preview_links: true
 collection_defaults: &collection_defaults
   create: true
   fields:
-    - { label: Title, name: title, widget: string, required: true }
-    - { label: Permalink, name: permalink, widget: hidden, default: /:path/:basename/ }
+    - label: Title
+      name: title
+      widget: string
+      required: true
+    - label: Permalink
+      name: permalink
+      widget: hidden
+      default: /:path/:basename/
     - label: Tags
       name: tags
       widget: select
       multiple: true
       options: ["Design", "Development"]
-    - { label: Body, name: body, widget: markdown, required: true }
+    - label: Body
+      name: body
+      widget: markdown
+      required: true
 collections:
   - name: home
     label: Home
