@@ -1,7 +1,14 @@
 ---
-title: Accessibility for UX designers
+title: Designing accessible services
 related_order: 1
 ---
-Designs that are accessible to people with visual impairments not only improve their user experience, but also benefit a wider audience. A visually accessible design ensures that information and functionality are clearly presented and easy to understand for everyone, regardless of their visual ability. Emphasising accessibility in design helps to create a more inclusive and user-friendly digital environment.
+At dxw we think about accessibility when we’re researching, designing and developing services. 
 
-It's advised to integrate accessibility considerations in the design phase and to perform accessibility evaluations consistently throughout both the design and development stages.
+Accessible services are easier for everyone to use. Our design team designs accessible services and tests for accessibility throughout service development. 
+
+This means we think about
+* what users see - do they have sight loss or colour blindness? What size screen do they use?
+* the technology users use - do they use a screen reader, special software or an alternative input device?
+* how users think - do they struggle to remember things? Are they neurodivergent?
+* how users behave - are they outdoors in bright sunshine? Do they have a slow connection? 
+
