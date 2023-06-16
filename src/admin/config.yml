@@ -25,6 +25,11 @@ collection_defaults: &collection_defaults
   fields:
     - { label: Title, name: title, widget: string, required: true }
     - { label: Permalink, name: permalink, widget: hidden, default: /:path/:basename/ }
+    - label: Tags
+      name: tags
+      widget: select
+      multiple: true
+      options: ["Design", "Development"]
     - { label: Body, name: body, widget: markdown, required: true }
 collections:
   - name: home
