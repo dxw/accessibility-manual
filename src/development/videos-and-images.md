@@ -22,7 +22,7 @@ For vector-based graphics that are coded as an inline SVG, the alternative text 
 </svg>
 ```
 
-### Decorative SVG 
+### Decorative SVG
 
 ```
 <svg viewBox="0 0 267 93" fill="none" xmlns="http://www.w3.org/2000/svg" width="80px" aria-hidden="true" focusable="false">
@@ -34,6 +34,13 @@ For vector-based graphics that are coded as an inline SVG, the alternative text 
 ## Videos
 
 Accessible captions should be included on all videos with speech, whether they’re self-hosted or on a third-party platform, such as YouTube. Use the standard HTML approach with a video element to correctly associate captions and a transcript, if one is available.
+
+The following example demonstrates a best practice approach for including the required components for a video with accessible properties using the [track element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track), including:
+
+* **Captions** to provide a transcription and possibly a translation of audio, suitable for users who are deaf or when the sound is muted
+* **Descriptions** for textual description of the video content, suitable for users who are blind or where the video cannot be seen
+* **Chapters** intended to be used when the user is navigating the media resource, suitable for longer duration media
+* **Subtitles** provide translation of content that cannot be understood by the viewer
 
 ### Code example of accessible video
 
