@@ -20,6 +20,8 @@ Sectioning elements, otherwise known as landmarks, help not only create a broad 
 
 ![VoiceOver example showing landmarks dialog in the rotor menu](/src/assets/images/screenshot-2023-06-30-at-11.44.51.png "VoiceOver dialog showing rotor menu")
 
+In case of having multiple `header` and `footer` sections in a page, make sure to include `role="banner"` once for the primary header and `role="contentinfo"` once for the primary footer.
+
 ## WCAG references
 
 * [1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG20/quickref/?showtechniques=14%2C128&currentsidebar=%23col_overview#content-structure-separation-programmatic)
