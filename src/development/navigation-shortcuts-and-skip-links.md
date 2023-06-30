@@ -10,13 +10,15 @@ For vision impaired users, the ability to navigate pages by jumping over repeate
 
 Whenever you have repetitive content on a page, then make sure to include a skip link above it. Typically, users want to bypass the navigation menu, so adding a skip link above this that navigates to the main tag of the page is the best approach that's commonly implemented.
 
+Ensure that the skip link points to a tag that's correctly referenced with a unique `id` present on all pages where the skip link is present.
+
 A [good example of a skip link](https://design-system.service.gov.uk/components/skip-link/) documented here in the GOV.UK Design System styles the link to be visually hidden until a keyboard press activates it.
 
 ## Landmarks
 
-Sectioning elements, otherwise known as landmarks, help not only create a broad outline of page content, but also helps users navigate a page more easily when using a screen reader. Such examples of landmarks include \`header\`, \`nav\`, \`main\`, and \`footer\`.
+Sectioning elements, otherwise known as landmarks, help not only create a broad outline of page content, but also helps users navigate a page more easily when using a screen reader. Such examples of landmarks include `header`, `nav`, `main`, and `footer`.
 
-![VoiceOver dialog showing rotor menu with landmarks section highlighting navigation](/src/assets/images/screenshot-2023-06-30-at-11.44.51.png "VoiceOver dialog 1")
+![VoiceOver example showing landmarks dialog in the rotor menu](/src/assets/images/screenshot-2023-06-30-at-11.44.51.png "VoiceOver dialog showing rotor menu")
 
 ## WCAG references
 
