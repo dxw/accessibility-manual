@@ -14,7 +14,9 @@ A [good example of a skip link](https://design-system.service.gov.uk/components/
 
 ## Landmarks
 
-Sectioning elements, otherwise known as landmarks, help not only create a broad outline of page content, but also helps users navigate a page more easily when using a screen reader. Such examples of landmarks include \`header\`, \`nav\`, \`main\`, and \`footer\`.
+Sectioning elements, otherwise known as landmarks, help not only create a broad outline of page content, but also helps users navigate a page more easily when using a screen reader. Such examples of landmarks include `header`, `nav`, `main`, and `footer`.
+
+![VoiceOver example showing landmarks dialog in the rotor menu](/src/assets/images/screenshot-2023-06-30-at-11.44.51.png "VoiceOver dialog showing rotor menu")
 
 ## WCAG references
 
