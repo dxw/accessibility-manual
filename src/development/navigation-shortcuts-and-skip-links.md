@@ -10,7 +10,11 @@ For vision impaired users, the ability to navigate pages by jumping over repeate
 
 Whenever you have repetitive content on a page, then make sure to include a skip link above it. Typically, users want to bypass the navigation menu, so adding a skip link above this that navigates to the main tag of the page is the best approach that's commonly implemented.
 
-## Landmarks
+A [good example of a skip link](https://design-system.service.gov.uk/components/skip-link/) documented here in the GOV.UK Design System styles the link to be visually hidden until a keyboard press activates it.
+
+## Landmarks and 
+
+
 
 ## WCAG references
 
