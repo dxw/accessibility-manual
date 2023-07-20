@@ -1,5 +1,5 @@
 ---
-title: How to write accessible code
+title: Writing html
 permalink: /:path/:basename/
 ---
 How we write our code is important for how webpages are interpreted by assistive technologies. When working with govuk sites we can refer to the GOV.UK Design System for common components and patterns which have been extensively tested by users with different disabilities. After this we should use the appropriate html element. 
