@@ -35,7 +35,7 @@ collection_defaults: &collection_defaults
       name: tags
       widget: select
       multiple: true
-      options: ["Design", "Development"]
+      options: ["Content", "Design", "Development"]
     - label: Body
       name: body
       widget: markdown
