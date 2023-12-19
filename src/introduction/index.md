@@ -14,7 +14,7 @@ This guide explains:
 
 ## What we mean by people with accessibility needs
 People with accessibility needs are people that have specific needs, at this point in their life, when accessing and 
-using products and services
+using products and services.
 
 They may be the members of the public who directly use a service, people helping others to use a service, public servants
 supporting and operating services, or colleagues working along side us to create those services.
@@ -52,9 +52,8 @@ Disability is not static, and cannot be separated from human development
 individually and culturally defined and subjected to power dynamics.
 
 Disability can be experienced short term (for example, someone that just had an eye surgery and is in recovery) or
-long term, and sometimes can be progressive (getting worse with time). This matters because we are designing
-products and services for users that may have disabilities that will last a short period of time or that will get worse
-with time, and we need to find ways of designing products for changing access needs.
+long term, and sometimes can be progressive (getting worse with time). So we must design products and services that 
+support changing access needs.
 
 ## Conceptual models of disability
 The way we think about disability determines how we define disability, how we understand the impact of disability and how
