@@ -114,6 +114,6 @@ We do this because:
 * Under the [Human Rights Act](https://www.equalityhumanrights.com/human-rights/human-rights-act/article-14-protection-discrimination)
   and the [UK Equality Act 2010](https://www.gov.uk/guidance/equality-act-2010-guidance#overview), discrimination is prohibited.
   If our services are not accessible, users those services can claim that discrimination is taking place.
-* dxw contributes to [UN sustainable development goal number 10] set by the United Nations. Goal 10 aims to reduce
-  inequality within and among countries. At dxw, we contribute to this goal by helping to reduce
-  the unequal access to public services for people with accessibility needs.
+* dxw contributes to [UN sustainable development goal number 10](https://sdgs.un.org/goals/goal10#targets_and_indicators)
+  set by the United Nations. Goal 10 aims to reduce inequality within and among countries. At dxw, we contribute to this goal
+  by helping to reduce the unequal access to public services for people with accessibility needs.
