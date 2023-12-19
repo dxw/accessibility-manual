@@ -1,7 +1,8 @@
 ---
 title: Introduction to accessibility
 ---
-At dxw, our [mission](https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission) is to build services that fit seamlessly into user's lives, and that make public services
+At dxw, our [mission](https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission) is to build services
+that fit seamlessly into user's lives, and that make public services
 usable and accessible to all – especially those most in need.
 
 To achieve that mission, we must create services that work well for people with accessibility needs.
@@ -102,7 +103,7 @@ Assistive technology is not only used by disabled people. All people with access
 (if they have access to it and know how to use it).
 
 ## Why it is important to create services that work well for people with accessibility needs
-At dxw we want to make sure that everyone can access and use the digital services we create.
+At dxw we want to make sure that everyone can access and use the services we create.
 
 We do this because:
 * It is the right thing to do
