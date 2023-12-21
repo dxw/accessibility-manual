@@ -5,7 +5,7 @@ tags:
   - Development
 ---
 
-The way we write code influences how [assistive technologies](https://business.scope.org.uk/article/assistive-technology-devices-definitions-how-disabled-people-use-the-web) interpret pages. We should:
+The way we write code influences how [assistive technologies](/introduction#what-we-mean-by-assistive-technology) interpret pages. We should:
 
 - use the GOV.UK Design System (if appropriate for the service)
 - create semantic structure for our pages using HTML
