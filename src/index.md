@@ -25,10 +25,10 @@ When we’re designing services, we think about
 * how users think - do they struggle to remember things? Are they neurodivergent?
 * how users behave - are they outdoors in bright sunshine? Do they have a slow internet connection?
 
-Your role and accessibility
+## Your role and accessibility
 
 * User research and accessibility
 * [Interaction design and accessibility](interaction-design)
 * Service design and accessibility
-* Content design and accessibility
+* [Content design and accessibility](content)
 * [Development and accessibility](development)
