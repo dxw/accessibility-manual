@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Videos and images
 permalink: /:path/:basename/
 tags:
   - Development
@@ -8,7 +8,7 @@ tags:
 
 Images should always have an alt property, whether the image has a purpose or not. 
 
-See Designing alt text for a guide on how to write good alt text.
+See [Designing alt text](/content/designing-alt-text/) for a guide on how to write good alt text.
 
 For vector-based graphics that are coded as an inline SVG, the alternative text should only be placed in the title element. If the SVG is for decorative purpose only, then add the ARIA hidden and focusable properties.
 
