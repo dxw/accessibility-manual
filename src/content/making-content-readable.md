@@ -77,10 +77,10 @@ It suggests removing ‘we think’ from the sentence ‘We think that everyone 
 
 But Hemingway also suggests removing ‘we think’ from the sentence “We think about the accessibility of the content we create’. This is a bad suggestion. “We think” is a necessary part of this sentence. Without it, the sentence makes no sense. 
 
-![Hemingway markup suggesting that the user remove the words ‘we think’.](/src/assets/images/content-image1.png)
+![Hemingway markup suggesting that the user remove the words ‘we think’.](/assets/images/content-image1.png)
 
 In this example Grammarly wants to correct ‘industry’ to ‘industries’ in the sentence ‘we regulate industry to control emissions’, but the client specifically uses this language when describing its regulatory role. 
 
  
 
-![Grammarly suggests changing ‘industry’ to ‘industries’ in the phrase ‘we regulate industry to control emissions’.](/src/assets/images/content-image2.png)
+![Grammarly suggests changing ‘industry’ to ‘industries’ in the phrase ‘we regulate industry to control emissions’.](/assets/images/content-image2.png)
