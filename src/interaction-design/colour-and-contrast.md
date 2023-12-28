@@ -17,4 +17,4 @@ Use tools to check colour combinations
 * [Who can use](https://www.whocanuse.com/) shows how your combinations look to people with certain eye conditions and in certain light settings
 * [Accessible colours](https://accessible-colors.com/) checks your contrasts and suggests alternate text or background colours that will pass WCAG AA and AAA
 
-![Contrast checker](/assets/images/image3.png)
+![Results from WebAim’s contrast checker showing a colour combination with enough contrast to pass WCAG AA and AAA standards for normal text, large text and user interface components. ](/assets/images/image3.png)
