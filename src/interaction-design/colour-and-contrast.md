@@ -12,9 +12,9 @@ All colour combinations must have sufficient contrast.
 * avoid placing text over images or textured background - if you must place a solid or a transparent dark background behind the text (assuming the text is in white or other light colours) 
 
 Use tools to check colour combinations
+
 * [WebAim’s contrast checker](https://webaim.org/resources/contrastchecker/) tells you if your combinations pass or fail the [web content accessibility guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) at AA and AAA
 * [Who can use](https://www.whocanuse.com/) shows how your combinations look to people with certain eye conditions and in certain light settings
 * [Accessible colours](https://accessible-colors.com/) checks your contrasts and suggests alternate text or background colours that will pass WCAG AA and AAA
 
-
-
+![Contrast checker](/src/assets/images/image3.png)
