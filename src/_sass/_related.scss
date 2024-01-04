@@ -39,6 +39,15 @@
   nav > ul {
     display: flex;
   }
+
+  .nested-navigation {
+    margin-left: 1em;
+  }
+
+  .current {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+  }
 }
 
 @include breakpoints.on-large-screens {

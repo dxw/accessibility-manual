@@ -8,6 +8,10 @@ module Jekyll
       all_pages.find { |p| child_of?(child, p) }
     end
 
+    def site_sections(all_pages)
+      all_pages.select { |p| section?(p) }
+    end
+
     private
 
     def child_of?(child, parent)
@@ -17,6 +21,11 @@ module Jekyll
       return false if parent_url == child_url
 
       Regexp.new("^#{parent_url}/?[\\w\\-]+(\\.html|/)?$").match?(child_url)
+    end
+
+    def section?(page)
+      item_crumbs = page.url.split("/")
+      return item_crumbs.size == 2 && page.name == "index.md"
     end
   end
 end

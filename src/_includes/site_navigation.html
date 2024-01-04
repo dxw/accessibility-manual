@@ -1,0 +1,33 @@
+{% assign sections = site.pages | site_sections %}
+{% assign parent_page = site.pages | parent_of: page %}
+
+<aside class="related">
+  <nav aria-label="Site navigation">
+    <ul>
+      {% for section in sections %}
+          <li>
+            <a class="{% if section.url == page.url %}current{% endif %}" href="{{ section.url | relative_url }}">{{ section.title }}</a>
+            {% if section.url == page.url or section.url == parent_page.url %}
+              {% assign grouped_related_pages = site.pages | children_of: section | group_by: "related_order" | sort: "name" %}
+              {% if grouped_related_pages.size > 0 %}
+                <ul class="nested-navigation">
+                  {% for related_page_group in grouped_related_pages %}
+                    {% assign related_pages = related_page_group.items | sort_natural: "title" %}
+                    {% for related_page in related_pages %}
+                      {% unless related_page.unrelatable %}
+                        <li>
+                          <a class="{% if related_page.url == page.url %}current{% endif %}" href="{{ related_page.url }}">
+                            {{ related_page.title }}
+                          </a>
+                        </li>
+                      {% endunless %}
+                    {% endfor %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            {% endif %}
+          </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>
