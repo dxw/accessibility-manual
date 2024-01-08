@@ -5,12 +5,14 @@
   <nav aria-label="Site navigation">
     <ul>
       {% for section in sections %}
-          <li>
+          <li class="related__section-link">
             <a class="{% if section.url == page.url %}current{% endif %}" href="{{ section.url | relative_url }}">{{ section.title }}</a>
-            {% if section.url == page.url or section.url == parent_page.url %}
               {% assign grouped_related_pages = site.pages | children_of: section | group_by: "related_order" | sort: "name" %}
               {% if grouped_related_pages.size > 0 %}
-                <ul class="nested-navigation">
+                <label class="visually-hidden" for="section-{{ forloop.index }}">Toggle page links in this section</label>
+                <input class="related__expand-toggle arrow" type="checkbox" name="section-{{ forloop.index }}" id="section-{{ forloop.index }}"
+                aria-controls="related-section-list-{{ forloop.index }}" {% if section.url == page.url or section.url == parent_page.url %}checked{% endif %}>
+                <ul class="related__section-list" id="related-section-list-{{ forloop.index }}">
                   {% for related_page_group in grouped_related_pages %}
                     {% assign related_pages = related_page_group.items | sort_natural: "title" %}
                     {% for related_page in related_pages %}
@@ -25,7 +27,6 @@
                   {% endfor %}
                 </ul>
               {% endif %}
-            {% endif %}
           </li>
       {% endfor %}
     </ul>
