@@ -65,7 +65,7 @@
   }
 
   .arrow {
-    border: solid colours.$accent-b;
+    border: solid colours.$navy;
     border-width: 0 0.25em 0.25em 0;
     display: inline-block;
     padding: 0.25em;
@@ -91,7 +91,7 @@
 
   .arrow:hover,
   .arrow:focus {
-    border-color: black;
+    border-width: 0 0.35em 0.35em 0;
   }
 
   .current {
