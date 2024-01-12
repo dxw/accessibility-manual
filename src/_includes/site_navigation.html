@@ -9,9 +9,11 @@
             <a href="{{ section.url | relative_url }}" {% if section.url == page.url %}class="current" aria-current="page"{% endif %}>{{ section.title }}</a>
               {% assign grouped_related_pages = site.pages | children_of: section | group_by: "related_order" | sort: "name" %}
               {% if grouped_related_pages.size > 0 %}
-                <label class="visually-hidden" for="section-{{ forloop.index }}">Toggle pages in {{ section.title }}</label>
-                <input class="related__expand-toggle arrow" type="checkbox" name="section-{{ forloop.index }}" id="section-{{ forloop.index }}"
-                aria-controls="related-section-list-{{ forloop.index }}" {% if section.url == page.url or section.url == parent_page.url %}checked{% endif %}>
+                {% if section.url == page.url or section.url == parent_page.url %}{% assign is_expanded = true%}{% else %}{% assign is_expanded = false %}{% endif %}
+                <button type="button" class="related__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="related-section-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
+                  <span class="visually-hidden">{% if is_expanded == true %}Hide{% else %}Show{% endif %}</span>
+                  <span class="visually-hidden"> links in {{section.title}} category</span>
+                </button>
                 <ul class="related__section-list" id="related-section-list-{{ forloop.index }}">
                   {% for related_page_group in grouped_related_pages %}
                     {% assign related_pages = related_page_group.items | sort_natural: "title" %}
