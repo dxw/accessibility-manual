@@ -19,7 +19,6 @@
   a {
     display: block;
     text-decoration: none;
-    margin-bottom: 0.5em;
 
     &:hover,
     &:focus,
@@ -37,7 +36,7 @@
 
     li {
       margin: 0;
-      padding: 0.25em 3em 0.25em 0;
+      padding: 0.25em 0;
 
       &.related__back-link {
         margin-bottom: 1.5em;
@@ -46,20 +45,25 @@
   }
 
   .navigation__section-link {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     label,
     a {
       display: inline;
+      flex: 1;
     }
   }
 
   .navigation__subsection-list {
     display: none;
     margin-left: 1em;
+    flex-basis: 100%;
   }
 
   .navigation__expand-toggle {
     display: none;
+    flex: 0;
+    align-self: flex-start;
     background-color: transparent;
     padding: 0.1em 0.32em 0.2em;
     border: 0;
