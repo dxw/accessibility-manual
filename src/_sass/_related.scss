@@ -31,7 +31,7 @@
 
     li {
       margin: 0;
-      padding: 0.25em 3em 0.25em 0;
+      padding: 0.25em 0;
       white-space: nowrap;
     }
   }
@@ -41,20 +41,25 @@
   }
 
   .related__section-link {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     label,
     a {
       display: inline;
+      flex: 1;
     }
   }
 
   .related__section-list {
     display: none;
     margin-left: 1em;
+    flex-basis: 100%;
   }
 
   .related__expand-toggle {
     display: none;
+    flex: 0;
+    align-self: flex-start;
     background-color: transparent;
     padding: 0.1em 0.32em 0.2em;
     border: 0;
@@ -85,7 +90,7 @@
   .related__expand-toggle:hover {
     .arrow {
       border-width: 0 0.35em 0.35em 0;
-  }
+    }
   }
 
   .current {
@@ -119,7 +124,6 @@
     }
 
     ul li {
-      padding-right: 1em;
       white-space: unset;
 
       &.related__back-link {
