@@ -1,3 +1,4 @@
+@use "./breakpoints";
 @use "./colours";
 @use "./typography";
 
@@ -49,6 +50,30 @@ $height: 70px; // Manually measured after layout.
       &:not(:first-child) {
         margin-left: 2em;
       }
+    }
+  }
+
+  #menu-button-item {
+    margin: -1em -1em -1em 1em;
+    display: flex;
+
+    button {
+      width: $height;
+    }
+  }
+}
+
+.icon-button {
+  background-color: colours.$accent-a;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+@include breakpoints.on-large-screens {
+  .navbar {
+    #menu-button-item {
+      display: none;
     }
   }
 }

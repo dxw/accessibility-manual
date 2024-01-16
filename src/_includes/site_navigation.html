@@ -1,8 +1,7 @@
 {% assign section_groups_by_navigation_order = site.pages | site_sections | group_by: "navigation_order" | sort: "name" %}
 {% assign parent_page = site.pages | parent_of: page %}
 
-<aside class="navigation">
-  <nav aria-label="Site navigation">
+  <nav class="navigation" id="site-navigation" aria-label="Site navigation">
     <ul>
       {% for section_group in section_groups_by_navigation_order %}
         {% assign sections_by_title = section_group.items | sort_natural: "title" %}
@@ -12,7 +11,7 @@
               {% assign subsection_groups_by_navigation_order = site.pages | children_of: section | group_by: "navigation_order" | sort: "name" %}
               {% if subsection_groups_by_navigation_order.size > 0 %}
                 {% if section.url == page.url or section.url == parent_page.url %}{% assign is_expanded = true%}{% else %}{% assign is_expanded = false %}{% endif %}
-                <button type="button" class="navigation__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="navigation-subsection-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
+                <button type="button" class="navigation__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="navigation-subsection-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event, 'Hide', 'Show')">
                   <span class="visually-hidden">{% if is_expanded == true %}Hide{% else %}Show{% endif %}</span>
                   <span class="visually-hidden"> links in {{section.title}} category</span>
                 </button>
@@ -36,4 +35,3 @@
       {% endfor %}
     </ul>
   </nav>
-</aside>
