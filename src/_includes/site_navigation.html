@@ -10,9 +10,10 @@
               {% assign grouped_related_pages = site.pages | children_of: section | group_by: "related_order" | sort: "name" %}
               {% if grouped_related_pages.size > 0 %}
                 {% if section.url == page.url or section.url == parent_page.url %}{% assign is_expanded = true%}{% else %}{% assign is_expanded = false %}{% endif %}
-                <button type="button" class="related__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="related-section-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
+                <button type="button" class="related__expand-toggle" aria-expanded="{{ is_expanded }}" aria-controls="related-section-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
                   <span class="visually-hidden">{% if is_expanded == true %}Hide{% else %}Show{% endif %}</span>
                   <span class="visually-hidden"> links in {{section.title}} category</span>
+                  <span class="arrow"></span>
                 </button>
                 <ul class="related__section-list" id="related-section-list-{{ forloop.index }}">
                   {% for related_page_group in grouped_related_pages %}
