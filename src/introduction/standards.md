@@ -11,7 +11,7 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standar
 World Wide Web Consortium (W3C). They explain how to make web content more accessible to disabled people.
 
 Public services must achieve WCAG 2.2 level AA as part of
-[meeting government accessibility requirements](/introduction/obligations.md#public-sector-bodies-accessibility-regulations).
+[meeting government accessibility requirements](/introduction/obligations#public-sector-bodies-accessibility-regulations).
 So we expect all the web pages and web applications we create to meet those requirements.
 
 If you’re new to WCAG, [Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
