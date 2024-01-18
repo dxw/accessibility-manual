@@ -9,7 +9,7 @@ usable and accessible to all – especially those most in need.
 To achieve that mission, we must create services that work well for [people with accessibility needs](#what-we-mean-by-people-with-accessibility-needs).
 
 This guide explains:
-* what we mean by concepts like [accessibility needs[(#what-we-mean-by-people-with-accessibility-needs), [disability]((#what-we-mean-by-disability) and [assistive technology](#what-we-mean-by-assistive-technology)
+* what we mean by concepts like [accessibility needs](#what-we-mean-by-people-with-accessibility-needs), [disability](#what-we-mean-by-disability) and [assistive technology](#what-we-mean-by-assistive-technology)
 * the different [conceptual models of disability](#conceptual-models-of-disability)
 
 ## What we mean by people with accessibility needs
@@ -99,9 +99,9 @@ underpins the International Classification of Functioning, endorsed by the World
 because it promotes an overly normative understanding of what is a ‘normal functioning body’.
 
 ### Human rights model
-The United Nations Convention on the Rights of Persons with Disabilities (UNCRPD) promotes the idea that human interactions,
-attitudinal barriers and environmental barriers hinder the full and effective participation in society, and this results in
-disability.
+The [United Nations Convention on the Rights of Persons with Disabilities (UNCRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-Persons-with-disabilities.html)
+promotes the idea that human interactions, attitudinal barriers and environmental barriers hinder the full and effective
+participation in society, and this results in disability.
 
 UNCRPD aims to ensure that people with disabilities have the same cultural, social, economic, political and civil
 rights as non-disabled.
