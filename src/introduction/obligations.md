@@ -5,6 +5,12 @@ related_order: 100
 
 At dxw, we create accessible services because it is the right thing to do, and because it is the law.
 
+This guide:
+
+* explains the [moral obligations](#moral-obligations) that we have set for ourselves in our mission and principles
+* identifies the [accessibility regulations](#accessibility-regulations) that apply to public sector services and content, and the obligations they place on us
+* explains terms like [reasonable adjustments](#reasonable-adjustments) and [disproportionate burden](#disproportionate-burden)
+
 ## Moral obligations
 
 [Our mission](https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission) is to build services
