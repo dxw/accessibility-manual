@@ -105,7 +105,7 @@ For example, to provide a passport photo you can:
 The [Public Sector Bodies Accessibility Regulations 2018/2022](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 require most public sector websites and mobile applications to:
 
-* meet the latest published version of the [Web Content Accessibility Guidelines (WCAG)](/introduction/standards.md)
+* meet the latest published version of the [Web Content Accessibility Guidelines (WCAG)](/introduction/standards)
 * publish an accessibility statement
 
 The regulations apply to web content, web applications and mobile applications provided for members of the public.
