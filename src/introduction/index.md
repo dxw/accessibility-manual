@@ -100,19 +100,3 @@ rights as non-disabled.
 
 UNCRPD shifts disability conceptualization from a social welfare and medical concern to a human rights
 issue that admits that society’s barriers and prejudices are disabling. The aim of this model is to encourage disability policy.
-
-## Why it is important to create services that work well for people with accessibility needs
-At dxw we want to make sure that everyone can access and use the services we create.
-
-We do this because:
-* It is the right thing to do
-* To follow guidance set by the
-  [GOV.UK Service Manual](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
-* To meet accessibility requirements set by accessibility standards. Such as the
-  [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
-* Under the [Human Rights Act](https://www.equalityhumanrights.com/human-rights/human-rights-act/article-14-protection-discrimination)
-  and the [UK Equality Act 2010](https://www.gov.uk/guidance/equality-act-2010-guidance#overview), discrimination is prohibited.
-  If our services are not accessible, users of those services can claim that discrimination is taking place.
-* dxw contributes to [United Nations sustainable development goal number 10](https://sdgs.un.org/goals/goal10#targets_and_indicators).
-  Goal 10 aims to reduce inequality within and among countries. At dxw, we contribute to this goal
-  by helping to reduce the unequal access to public services for people with accessibility needs.
