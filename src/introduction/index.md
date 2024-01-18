@@ -11,7 +11,6 @@ To achieve that mission, we must create services that work well for people with 
 This guide explains:
 * what we mean by concepts like accessibility needs, disability and assistive technology
 * the different conceptual models of disability
-* why it is important for us to create accessible services
 
 ## What we mean by people with accessibility needs
 People with accessibility needs are people that have specific needs, at this point in their life, when accessing and 
@@ -25,12 +24,15 @@ communicating.
 
 Accessibility needs can be a result of:
 
-* **Disability**: these may be cognitive, visual, auditory and movement disabilities, like learning disabilities, blindness,
-  deafness/Deafness or arthritis.
-* **Illness/disease/condition**: like long covid, Parkinson’s disease or menopause.
-* **Situational restrictions/inequity**: like not having a smartphone,
+* **disability** - cognitive, visual, auditory and movement disabilities, like learning disabilities, blindness,
+  deafness/Deafness or arthritis
+* **illness/disease/condition** - like long covid, Parkinson’s disease or menopause.
+* **situational restrictions/inequity** - like not having a smartphone,
   [not having an internet connection](https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/articles/exploringtheuksdigitaldivide/2019-03-04)
   or not having sufficient digital confidence to perform some tasks.  
+
+When we are working to the [Service Standard](/introduction/obligations#the-service-standard),
+we must do [research with people with accessibility needs](/research/).
 
 ## What we mean by disability
 Disability is one word attempting to describe lots of different experiences and stories.
@@ -38,9 +40,9 @@ Disability is one word attempting to describe lots of different experiences and 
 The [World Health Organisation](https://cdn.who.int/media/docs/default-source/classification/icf/icfbeginnersguide.pdf)
 states that disability is an umbrella term covering impairments, activity limitations
 and participation restrictions:
-* **Impairments** are a disruption/difference in body function and/or structure. 
-* **Activity** limitations are difficulties faced when trying to do a task or action.
-* **Participation** restrictions are challenges experienced when involved in life situations.
+* **impairments** are a disruption/difference in body function and/or structure
+* **activity** limitations are difficulties faced when trying to do a task or action
+* **participation** restrictions are challenges experienced when involved in life situations
 
 About 15% of the human population has a disability
 ([WeThe15](https://www.wethe15.org/?gclid=CjwKCAjw3ueiBhBmEiwA4BhspLqd1n_QXa2rqEQp-PnT04IVYx2A13O8VvrRddNMBoQmK-Wf5ES7SBoCWVkQAvD_BwE)).
@@ -56,17 +58,23 @@ Disability can be experienced short term (for example, someone that just had an 
 long term, and sometimes can be progressive (getting worse with time). So we must design products and services that 
 support changing access needs.
 
+The [Human Rights Act and Equality Act](/introduction/obligations#human-rights-act-and-equality-act) require us
+to create services to work well for people disable people, and people with other potected characteristics.
+
 ## What we mean by assistive technology
 Assistive technologies are products, systems and services that help people with accessibility needs to successfully access and
 use other products and services. Helping them to maintain or perform activities of daily living, to have independent, healthy and
 dignified lives, and participate in their communities.
 
-Assistive products are external devices or software used by people 3.5 billion people will need assistive technology by 2050 globally.
-Unfortunately, access to assistive products is not equitable and in some countries, only 3% of people have access to assistive products
+3.5 billion people will need assistive technology by 2050 globally. Unfortunately, access to assistive products is not equitable
+and in some countries, only 3% of people have access to assistive products
 ([assistive technology key facts](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)).
 
 Assistive technology is used not only by disabled people. All people with accessibility needs may use assistive technology
 (if they have access to it and know how to use it).
+
+When we are working to the [Service Standard](/introduction/obligations#the-service-standard),
+we must [test our services with common assistive technologies](/development/).
 
 ## Conceptual models of disability
 The way we think about disability determines how we define disability, how we understand the impact of disability and how
