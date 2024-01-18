@@ -1,34 +1,40 @@
 ---
 title: Accessibility at dxw
 ---
-At dxw, we believe that everything we create for the web should be as easy to use as possible so that no one is excluded from using a website because of their disability.
 
-## Web content accessibility guidelines (WCAG)
+At dxw, our [mission](https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission) is to build services that fit seamlessly into user’s lives, and that make public services usable and accessible to all – especially those most in need.
 
-WCAG is a set of [guidelines for building accessible services.](https://www.w3.org/WAI/standards-guidelines/wcag/) The law says that all online public services must meet WCAG 2.1 level AA. 
+To achieve that mission, we must create services that work well for
+[people with accessibility needs](/introduction/#what-we-mean-by-people-with-accessibility-needs).
 
+We know that accessibility needs vary widely, and can conflict. So designing and building accessible public services needs careful thought and sometimes difficult decisions.
 
-## Designing for everyone
+The guides in this accessibility manual help us all take a consistent and effective approach to accessibility.
 
-There are 16 million disabled people in the UK. But everyone experiences disability in some form at some stage that interferes with their ability to use online services.
+## Understanding accessibility
 
-Disability can be permanent, temporary or related to your situation:
+Our [guide to understanding accessibility](/introduction/) explains terms like accessibility needs, disability, assistive technology, and the different ways of thinking about disability.
 
-* having dyslexia means you struggle with large blocks of text
-* a broken hand means you struggle to use your mouse
-* bright sunshine means you struggle to see your screen
+## Accessibility obligations
 
-When we’re designing services, we think about
+Our [guide to our accessibility obligations](/introduction/obligations.md):
 
-* what users see - do they have sight loss or colour blindness? What size screen do they use?
-* the technology users use - do they use a screen reader, special software or an [alternative input device](https://business.scope.org.uk/article/assistive-technology-devices-definitions-how-disabled-people-use-the-web)?
-* how users think - do they struggle to remember things? Are they neurodivergent?
-* how users behave - are they outdoors in bright sunshine? Do they have a slow internet connection?
+* explains why creating accessible services is [the right thing to do](/introduction/obligations.md/#moral-obligations)
+* identifies the [accessibility regulations](/introduction/obligations.md/#accessibility-regulations) that apply to
+  public sector services and content, and explains the obligations they place on us
+* explains terms like [reasonable adjustments](/introduction/obligations.md/#reasonable-adjustments) and
+  [disproportionate burden](/introduction/obligations.md/#disproportionate-burden)
 
-## Your role and accessibility
+## Accessibility standards
 
-* User research and accessibility
-* [Interaction design and accessibility](interaction-design)
-* Service design and accessibility
-* [Content design and accessibility](content)
-* [Development and accessibility](development)
+Our [guide to accessibility standards](/introduction/standards.md) identifies and describes the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.
+
+## Guidance for your profession
+
+We have guides to help each of our professions play their full part in making everything we do accessible:
+
+* [Researching accessibility needs](/research/)
+* [Designing accessible services](/interaction-design/)
+* [Developing accessible applications](/development/)
+* [Creating accessible content](/content/)
+
