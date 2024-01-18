@@ -8,7 +8,7 @@ This guide identifies and describes the Web Content Accessibility Guidelines (WC
 ## Web Content Accessibility Guidelines (WCAG)
 
 The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are developed by the 
-World Wide Web Consortium (W3C). They explain how to make web content more accessible to people with disabilities.
+World Wide Web Consortium (W3C). They explain how to make web content more accessible to disabled people.
 
 Public services must achieve WCAG 2.2 level AA as part of
 [meeting government accessibility requirements](/introduction/obligations.md#public-sector-bodies-accessibility-regulations).
