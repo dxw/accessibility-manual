@@ -6,11 +6,11 @@ At dxw, our [mission](https://playbook.dxw.com/about-us/our-mission-values-and-p
 that fit seamlessly into user's lives, and that make public services
 usable and accessible to all – especially those most in need.
 
-To achieve that mission, we must create services that work well for people with accessibility needs.
+To achieve that mission, we must create services that work well for [people with accessibility needs](#what-we-mean-by-people-with-accessibility-needs).
 
 This guide explains:
-* what we mean by concepts like accessibility needs, disability and assistive technology
-* the different conceptual models of disability
+* what we mean by concepts like [accessibility needs[(#what-we-mean-by-people-with-accessibility-needs), [disability]((#what-we-mean-by-disability) and [assistive technology](#what-we-mean-by-assistive-technology)
+* the different [conceptual models of disability](#conceptual-models-of-disability)
 
 ## What we mean by people with accessibility needs
 People with accessibility needs are people that have specific needs, at this point in their life, when accessing and 
@@ -59,7 +59,7 @@ long term, and sometimes can be progressive (getting worse with time). So we mus
 support changing access needs.
 
 The [Human Rights Act and Equality Act](/introduction/obligations#human-rights-act-and-equality-act) require us
-to create services that work well for people disable people, and people with other potected characteristics.
+to create services that work well for people with disabilities, and people with other protected characteristics.
 
 ## What we mean by assistive technology
 Assistive technologies are products, systems and services that help people with accessibility needs to successfully access and
@@ -70,7 +70,7 @@ dignified lives, and participate in their communities.
 and in some countries, only 3% of people have access to assistive products
 ([assistive technology key facts](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)).
 
-Assistive technology is used not only by disabled people. All people with accessibility needs may use assistive technology
+Assistive technology is used not only by people with disabilities. All people with accessibility needs may use assistive technology
 (if they have access to it and know how to use it).
 
 When we are working to the [Service Standard](/introduction/obligations#the-service-standard),
