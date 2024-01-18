@@ -9,7 +9,7 @@
   transition: height 2s ease-in;
   width: 100%;
   font-family: typography.$heading-font-family;
-  font-weight: typography.$heading-font-weight;
+  font-weight: typography.$body-font-weight;
   font-size: 0.9em;
 
   &.expanded {
