@@ -56,6 +56,18 @@ Disability can be experienced short term (for example, someone that just had an 
 long term, and sometimes can be progressive (getting worse with time). So we must design products and services that 
 support changing access needs.
 
+## What we mean by assistive technology
+Assistive technologies are products, systems and services that help people with accessibility needs to successfully access and
+use other products and services. Helping them to maintain or perform activities of daily living, to have independent, healthy and
+dignified lives, and participate in their communities.
+
+Assistive products are external devices or software used by people 3.5 billion people will need assistive technology by 2050 globally.
+Unfortunately, access to assistive products is not equitable and in some countries, only 3% of people have access to assistive products
+([assistive technology key facts](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)).
+
+Assistive technology is used not only by disabled people. All people with accessibility needs may use assistive technology
+(if they have access to it and know how to use it).
+
 ## Conceptual models of disability
 The way we think about disability determines how we define disability, how we understand the impact of disability and how
 we design products and services for people with disabilities.
@@ -88,18 +100,6 @@ rights as non-disabled.
 
 UNCRPD shifts disability conceptualization from a social welfare and medical concern to a human rights
 issue that admits that society’s barriers and prejudices are disabling. The aim of this model is to encourage disability policy.
-
-## What we mean by assistive technology
-Assistive technologies are products, systems and services that help people with accessibility needs to successfully access and
-use other products and services. Helping them to maintain or perform activities of daily living, to have independent, healthy and
-dignified lives, and participate in their communities.
-
-Assistive products are external devices or software used by people 3.5 billion people will need assistive technology by 2050 globally.
-Unfortunately, access to assistive products is not equitable and in some countries, only 3% of people have access to assistive products
-([assistive technology key facts](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)).
-
-Assistive technology is used not only by disabled people. All people with accessibility needs may use assistive technology
-(if they have access to it and know how to use it).
 
 ## Why it is important to create services that work well for people with accessibility needs
 At dxw we want to make sure that everyone can access and use the services we create.
