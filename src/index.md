@@ -17,17 +17,17 @@ Our [guide to understanding accessibility](/introduction/) explains terms like a
 
 ## Accessibility obligations
 
-Our [guide to our accessibility obligations](/introduction/obligations.md):
+Our [guide to our accessibility obligations](/introduction/obligations):
 
-* explains why creating accessible services is [the right thing to do](/introduction/obligations.md/#moral-obligations)
+* explains why creating accessible services is [the right thing to do](/introduction/obligations/#moral-obligations)
 * identifies the [accessibility regulations](/introduction/obligations.md/#accessibility-regulations) that apply to
   public sector services and content, and explains the obligations they place on us
-* explains terms like [reasonable adjustments](/introduction/obligations.md/#reasonable-adjustments) and
+* explains terms like [reasonable adjustments](/introduction/obligations/#reasonable-adjustments) and
   [disproportionate burden](/introduction/obligations.md/#disproportionate-burden)
 
 ## Accessibility standards
 
-Our [guide to accessibility standards](/introduction/standards.md) identifies and describes the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.
+Our [guide to accessibility standards](/introduction/standards) identifies and describes the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.
 
 ## Guidance for your profession
 
