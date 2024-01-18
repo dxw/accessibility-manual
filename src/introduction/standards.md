@@ -3,7 +3,7 @@ title: Accessibility standards
 related_order: 200
 ---
 
-This guide identifies the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.
+This guide identifies and describes the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.
 
 ## Web Content Accessibility Guidelines (WCAG)
 
