@@ -41,8 +41,8 @@ The [World Health Organisation](https://cdn.who.int/media/docs/default-source/cl
 states that disability is an umbrella term covering impairments, activity limitations
 and participation restrictions:
 * **impairments** are a disruption/difference in body function and/or structure
-* **activity** limitations are difficulties faced when trying to do a task or action
-* **participation** restrictions are challenges experienced when involved in life situations
+* **activity limitations** are difficulties faced when trying to do a task or action
+* **participation restrictions** are challenges experienced when involved in life situations
 
 About 15% of the human population has a disability
 ([WeThe15](https://www.wethe15.org/?gclid=CjwKCAjw3ueiBhBmEiwA4BhspLqd1n_QXa2rqEQp-PnT04IVYx2A13O8VvrRddNMBoQmK-Wf5ES7SBoCWVkQAvD_BwE)).
@@ -59,7 +59,7 @@ long term, and sometimes can be progressive (getting worse with time). So we mus
 support changing access needs.
 
 The [Human Rights Act and Equality Act](/introduction/obligations#human-rights-act-and-equality-act) require us
-to create services to work well for people disable people, and people with other potected characteristics.
+to create services that work well for people disable people, and people with other potected characteristics.
 
 ## What we mean by assistive technology
 Assistive technologies are products, systems and services that help people with accessibility needs to successfully access and
