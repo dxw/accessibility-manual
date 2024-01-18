@@ -20,10 +20,10 @@ Our [guide to understanding accessibility](/introduction/) explains terms like a
 Our [guide to our accessibility obligations](/introduction/obligations):
 
 * explains why creating accessible services is [the right thing to do](/introduction/obligations/#moral-obligations)
-* identifies the [accessibility regulations](/introduction/obligations.md/#accessibility-regulations) that apply to
+* identifies the [accessibility regulations](/introduction/obligations/#accessibility-regulations) that apply to
   public sector services and content, and explains the obligations they place on us
 * explains terms like [reasonable adjustments](/introduction/obligations/#reasonable-adjustments) and
-  [disproportionate burden](/introduction/obligations.md/#disproportionate-burden)
+  [disproportionate burden](/introduction/obligations/#disproportionate-burden)
 
 ## Accessibility standards
 
