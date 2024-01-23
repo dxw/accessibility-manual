@@ -1,6 +1,6 @@
 ---
 title: Accessibility standards
-related_order: 200
+navigation_order: 200
 ---
 
 This guide identifies and describes the Web Content Accessibility Guidelines (WCAG) and other standards we may need to comply with.

@@ -1,0 +1,14 @@
+{% assign child_page_groups_by_navigation_order = site.pages | children_of: page | group_by: "navigation_order" | sort: "name" %}
+{% for page_group in child_page_groups_by_navigation_order %}
+  {% assign pages = page_group.items | sort_natural: "title" %}
+
+  {% for page in pages %}
+    {% unless page.unrelatable %}
+      <li>
+        <a href="{{ page.url }}">
+          {{ page.title }}
+        </a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+{% endfor %}

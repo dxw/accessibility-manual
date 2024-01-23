@@ -1,6 +1,6 @@
 ---
 title: Designing accessible services
-related_order: 1
+navigation_order: 1
 tags:
   - Design
 ---

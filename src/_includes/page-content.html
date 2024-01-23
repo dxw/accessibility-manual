@@ -5,7 +5,7 @@
     {% assign stripped_content = content | strip %}
     {% if stripped_content == "" %}
       <ul>
-        {% include related_pages.html %}
+        {% include child_pages.html %}
       </ul>
     {% else %}
       {% include anchor_headings.html html=content anchorBody="#" anchorAttrs='aria-label="Permalink to %heading%"' %}

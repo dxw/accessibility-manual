@@ -1,6 +1,6 @@
 ---
 title: Creating accessible content
-related_order: 1
+navigation_order: 1
 tags:
   - Content
 ---
