@@ -15,7 +15,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: default
-      related_order: 9999
+      navigation_order: 9999
 
 # Build settings
 source: src

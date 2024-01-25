@@ -1,27 +1,29 @@
-{% assign sections = site.pages | site_sections %}
+{% assign section_groups_by_navigation_order = site.pages | site_sections | group_by: "navigation_order" | sort: "name" %}
 {% assign parent_page = site.pages | parent_of: page %}
 
-<aside class="related">
+<aside class="navigation">
   <nav aria-label="Site navigation">
     <ul>
-      {% for section in sections %}
-          <li class="related__section-link">
+      {% for section_group in section_groups_by_navigation_order %}
+        {% assign sections_by_title = section_group.items | sort_natural: "title" %}
+        {% for section in sections_by_title %}
+          <li class="navigation__section-link">
             <a href="{{ section.url | relative_url }}" {% if section.url == page.url %}class="current" aria-current="page"{% endif %}>{{ section.title }}</a>
-              {% assign grouped_related_pages = site.pages | children_of: section | group_by: "related_order" | sort: "name" %}
-              {% if grouped_related_pages.size > 0 %}
+              {% assign subsection_groups_by_navigation_order = site.pages | children_of: section | group_by: "navigation_order" | sort: "name" %}
+              {% if subsection_groups_by_navigation_order.size > 0 %}
                 {% if section.url == page.url or section.url == parent_page.url %}{% assign is_expanded = true%}{% else %}{% assign is_expanded = false %}{% endif %}
-                <button type="button" class="related__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="related-section-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
+                <button type="button" class="navigation__expand-toggle arrow" aria-expanded="{{ is_expanded }}" aria-controls="navigation-subsection-list-{{ forloop.index }}" onclick="toggleAriaExpanded(event)">
                   <span class="visually-hidden">{% if is_expanded == true %}Hide{% else %}Show{% endif %}</span>
                   <span class="visually-hidden"> links in {{section.title}} category</span>
                 </button>
-                <ul class="related__section-list" id="related-section-list-{{ forloop.index }}">
-                  {% for related_page_group in grouped_related_pages %}
-                    {% assign related_pages = related_page_group.items | sort_natural: "title" %}
-                    {% for related_page in related_pages %}
-                      {% unless related_page.unrelatable %}
+                <ul class="navigation__subsection-list" id="navigation-subsection-list-{{ forloop.index }}">
+                  {% for subsection_group in subsection_groups_by_navigation_order %}
+                    {% assign subsections_by_title = subsection_group.items | sort_natural: "title" %}
+                    {% for subsection in subsections_by_title %}
+                      {% unless subsection.unrelatable %}
                         <li>
-                          <a href="{{ related_page.url }}" {% if related_page.url == page.url %}class="current" aria-current="page"{% endif %}>
-                            {{ related_page.title }}
+                          <a href="{{ subsection.url }}" {% if subsection.url == page.url %}class="current" aria-current="page"{% endif %}>
+                            {{ subsection.title }}
                           </a>
                         </li>
                       {% endunless %}
@@ -30,6 +32,7 @@
                 </ul>
               {% endif %}
           </li>
+        {% endfor %}
       {% endfor %}
     </ul>
   </nav>

@@ -1,6 +1,6 @@
 ---
 title: Accessibility obligations
-related_order: 100
+navigation_order: 100
 ---
 
 At dxw, we create accessible services because it is the right thing to do, and because it is the law.

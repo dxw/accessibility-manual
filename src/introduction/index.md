@@ -1,6 +1,6 @@
 ---
 title: Understanding accessibility
-related_order: 0
+navigation_order: 0
 ---
 At dxw, our [mission](https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission) is to build services
 that fit seamlessly into user's lives, and that make public services
