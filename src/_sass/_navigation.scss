@@ -3,13 +3,18 @@
 @use "./typography";
 
 .navigation {
+  background-color: colours.$cream;
+  display: none;
+  padding: 1.5em 1em;
+  transition: height 2s ease-in;
   width: 100%;
-  padding: 1em;
-  background-color: colours.$accent-a;
   font-family: typography.$heading-font-family;
-  font-weight: typography.$heading-font-weight;
+  font-weight: typography.$body-font-weight;
   font-size: 0.9em;
-  overflow-y: auto;
+
+  &.expanded {
+    display: block;
+  }
 
   a {
     display: block;
@@ -20,7 +25,7 @@
     &:active {
       text-decoration-line: underline;
       text-decoration-thickness: 0.15em;
-      text-decoration-color: colours.$accent-b;
+      text-decoration-color: colours.$accent-a;
     }
   }
 
@@ -31,32 +36,38 @@
 
     li {
       margin: 0;
-      padding: 0.25em 3em 0.25em 0;
-      white-space: nowrap;
+      padding: 0.25em 0;
+
+      &.related__back-link {
+        margin-bottom: 1.5em;
+      }
     }
   }
 
-  nav > ul {
-    display: flex;
-  }
-
   .navigation__section-link {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     label,
     a {
       display: inline;
+      flex: 1;
     }
   }
 
   .navigation__subsection-list {
     display: none;
     margin-left: 1em;
+    flex-basis: 100%;
   }
 
   .navigation__expand-toggle {
     display: none;
+    flex: 0;
+    align-self: flex-start;
     background-color: transparent;
-    margin: 0;
+    padding: 0.1em 0.32em 0.2em;
+    border: 0;
+    cursor: pointer;
   }
 
   .navigation__expand-toggle[aria-expanded="true"]
@@ -67,30 +78,23 @@
   .arrow {
     border: solid colours.$navy;
     border-width: 0 0.25em 0.25em 0;
-    padding: 0.25em;
+    display: inline-block;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     height: 0.75em;
     width: 0.75em;
-    margin-left: 0.625em;
-    position: absolute;
-    right: 1.5em;
-    top: 0.4em;
   }
 
-  .arrow[aria-expanded="true"] {
+  .related__expand-toggle[aria-expanded="true"] .arrow {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-    top: 0.75em;
+    margin-top: 0.6em;
   }
 
-  .arrow:hover {
-    cursor: pointer;
-  }
-
-  .arrow:hover,
-  .arrow:focus {
-    border-width: 0 0.35em 0.35em 0;
+  .related__expand-toggle:hover {
+    .arrow {
+      border-width: 0 0.35em 0.35em 0;
+    }
   }
 
   .current {
@@ -107,37 +111,9 @@
 
 @include breakpoints.on-large-screens {
   .navigation {
+    display: block;
     width: 21em;
     max-width: 30vw;
     height: 100%;
-    padding: 1.5em 1em;
-    background-color: colours.$cream;
-
-    a {
-      margin-bottom: 0.5em;
-
-      &:hover,
-      &:focus,
-      &:active {
-        text-decoration-color: colours.$accent-a;
-      }
-    }
-
-    ul li {
-      padding-right: 1em;
-      white-space: unset;
-
-      &.navigation__back-link {
-        margin-bottom: 1.5em;
-      }
-    }
-
-    nav > ul {
-      display: unset;
-    }
-
-    .arrow {
-      right: 0;
-    }
   }
 }
