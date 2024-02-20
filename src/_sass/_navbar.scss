@@ -5,14 +5,19 @@
 $height: 70px; // Manually measured after layout.
 
 .navbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
   background-color: colours.$accent-b;
   font-family: typography.$heading-font-family;
   font-weight: typography.$heading-font-weight;
+  display: flex;
+  justify-content: flex-start;
+
+  @include breakpoints.on-tall-screens {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
 
   &-title {
     font-size: 1rem;
@@ -46,6 +51,7 @@ $height: 70px; // Manually measured after layout.
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    flex: 1;
 
     > li {
       margin-bottom: 0;

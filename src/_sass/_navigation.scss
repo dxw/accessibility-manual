@@ -44,6 +44,10 @@
     }
   }
 
+  > ul {
+    margin-bottom: 60px;
+  }
+
   .navigation__section-link {
     display: flex;
     flex-wrap: wrap;
@@ -111,9 +115,15 @@
 
 @include breakpoints.on-large-screens {
   .navigation {
-    display: block;
     width: 21em;
     max-width: 30vw;
-    height: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 100px;
   }
+}
+
+.back-to-top__link svg {
+  margin-right: 0.5rem;
 }

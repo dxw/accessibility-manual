@@ -11,6 +11,7 @@ $font-size: 1em;
   overflow-y: auto;
   scroll-behavior: smooth;
   will-change: scroll-position;
+  background-color: colours.$ivory;
 
   > div {
     margin: 0 auto;

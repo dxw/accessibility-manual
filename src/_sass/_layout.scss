@@ -5,14 +5,23 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: calc( navbar.$height + 1.5em );
+}
+
+html, body {
+  height: 100%;
+}
+
 main {
-  margin-top: navbar.$height;
-  height: calc(100vh - navbar.$height);
   display: flex;
   flex-direction: column;
 
   @include breakpoints.on-large-screens {
-    height: calc(100vh - navbar.$height - 3em);
     flex-direction: row;
+  }
+
+  @include breakpoints.on-tall-screens {
+    margin-top: navbar.$height;
   }
 }
