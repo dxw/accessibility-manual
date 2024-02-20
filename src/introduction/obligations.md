@@ -135,4 +135,4 @@ When we are working to the Service Standard we have additional requirements to:
 * test our services with common assistive technologies
 
 Our guides on [researching accessibility needs](/research/) and on [developing accessible services](/development/)
-can help you meet these requirements.
+provide advice on meeting these requirements.
