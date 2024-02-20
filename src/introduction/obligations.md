@@ -66,7 +66,7 @@ The legislation gives no specific criteria for whether an adjustment is reasonab
 For example:
 
 1. Expanding a local government advice service to support text chats as well as voice phone calls would
-   likely be consider a reasonable adjustment>
+   likely be consider a reasonable adjustment.
 
    As people not able to make voice phone calls are at a substantial disadvantage and supporting text chat is
    a relatively straightforward and affordable addition.
@@ -135,4 +135,4 @@ When we are working to the Service Standard we have additional requirements to:
 * test our services with common assistive technologies
 
 Our guides on [researching accessibility needs](/research/) and on [developing accessible services](/development/)
-can help you meet these requirements.
+provide advice on meeting these requirements.
