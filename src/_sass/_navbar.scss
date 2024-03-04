@@ -11,7 +11,7 @@ $height: 70px; // Manually measured after layout.
   display: flex;
   justify-content: flex-start;
 
-  @include breakpoints.on-tall-screens {
+  @media screen and (min-width: breakpoints.$large) and (min-height:breakpoints.$v-large) {
     position: fixed;
     top: 0;
     right: 0;

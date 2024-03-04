@@ -21,7 +21,7 @@ main {
     flex-direction: row;
   }
 
-  @include breakpoints.on-tall-screens {
+  @media screen and (min-width: breakpoints.$large) and (min-height:breakpoints.$v-large) {
     margin-top: navbar.$height;
   }
 }
