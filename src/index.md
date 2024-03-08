@@ -33,8 +33,8 @@ Our [guide to accessibility standards](/introduction/standards) identifies and d
 
 We have guides to help each of our professions play their full part in making everything we do accessible:
 
-* [Researching accessibility needs](/research/)
-* [Designing accessible services](/interaction-design/)
-* [Developing accessible applications](/development/)
-* [Creating accessible content](/content/)
+* [Researching needs](/research/)
+* [Designing services](/interaction-design/)
+* [Developing applications](/development/)
+* [Creating content](/content/)
 
