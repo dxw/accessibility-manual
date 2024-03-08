@@ -1,5 +1,5 @@
 ---
-title: Designing accessible services
+title: Designing services
 navigation_order: 1
 tags:
   - Design
