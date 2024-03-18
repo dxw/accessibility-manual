@@ -19,8 +19,8 @@ During project inception we look out for aspects of a service that might be a ba
 
 As we identify and describe the groups of people who might use, operate and be affected by a service, we are careful to use inclusive language.
 
-[The structure of a project](https://playbook.dxw.com/work-we-do/building-services/#the-structure-of-a-project) in Building services in the dxw Playbook
-[Running a discovery kick-off workshop](https://playbook.dxw.com/work-we-do/building-services/running-a-discovery-kick-off-workshop/) in Building services in the dxw Playbook
+[The structure of a project](https://playbook.dxw.com/work-we-do/building-services/#the-structure-of-a-project) in Building services in the dxw Playbook \
+[Running a discovery kick-off workshop](https://playbook.dxw.com/work-we-do/building-services/running-a-discovery-kick-off-workshop/) in Building services in the dxw Playbook \
 [new guide on Using inclusive language]() in the dxw Playbook
 
 ## Create and share research plans
@@ -33,9 +33,9 @@ As we choose what research activities we might do, we consider carefully how to 
 
 And this is where we consider the ethical and safety implications of our research. We may be discussing people’s experience of discrimination with existing services. Or visiting people in their homes so they can use their own assistive technology setup.
 
-[Creating and using research plans](https://playbook.dxw.com/user-research/creating-and-using-research-plans/) in User research in the dxw Playbook
-[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook
-[Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook
+[Creating and using research plans](https://playbook.dxw.com/user-research/creating-and-using-research-plans/) in User research in the dxw Playbook \
+[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook \
+[Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook \
 [Doing research safely](https://playbook.dxw.com/user-research/doing-research-safely/) in User research in the dxw Playbook
 
 ## Recruit people for research
@@ -46,21 +46,21 @@ We take care to build relationships with underrepresented groups who may not imm
 
 When we describe participant groups, and when we communicate with groups and individual participants, we take care to use inclusive language.
 
-[new guide on Recruiting research participants and protecting their privacy]() in User research in the dxw Playbook
+[Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-protecting-privacy/) in User research in the dxw Playbook \
 [new guide on Using inclusive language]() in the dxw Playbook
 
 ## Do research activities
 
 As we do our research activities, we make sure they are inclusive and accessible for our participants and our colleagues. This is particularly important when we are researching accessibility needs with disabled participants.
 
-[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook
+[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook \
 [Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook
 
 ## Analyse research and produce findings
 
 As we do our analysis, we make sure that we do it in a way that is inclusive and accessible for our colleagues.
 
-[Choosing and using analysis and synthesis methods](https://playbook.dxw.com/user-research/choosing-and-using-analysis-and-synthesis-methods/) in User research in the dxw Playbook
+[Choosing and using analysis and synthesis methods](https://playbook.dxw.com/user-research/choosing-and-using-analysis-and-synthesis-methods/) in User research in the dxw Playbook \
 [Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook
 
 ## Create and share outputs
@@ -69,7 +69,7 @@ When we create and share outputs we make sure that the reports, presentations an
 
 We also consider carefully what quotes, photos and video clips we use to illustrate our findings and recommendations. This is particularly important when participants have shared past experiences or details about themselves that they want to keep private. Or when photos and video clips show things that a participant would not want shared.
 
-[Sharing research activities and findings](https://playbook.dxw.com/user-research/sharing-research-activities-and-findings/) in User research in the dxw Playbook
+[Sharing research activities and findings](https://playbook.dxw.com/user-research/sharing-research-activities-and-findings/) in User research in the dxw Playbook \
 [Creating content](https://accessibility.dxw.com/content/) in the dxw Accessibility Manual
 
 ## Take care of research data
