@@ -1,7 +1,6 @@
 ---
 title: Researching accessibility needs
 navigation_order: 100
-permalink: /:path/:basename/
 tags:
   - Research
 ---
