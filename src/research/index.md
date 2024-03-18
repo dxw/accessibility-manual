@@ -7,8 +7,9 @@ tags:
 ---
 
 As user researchers at dxw, we must:
-   * do research to help teams understand and act on the accessibility needs of people who might use, operate and be affected by a service
-   * do research in an inclusive and accessible way, so that everyone who needs to can participate
+
+* do research to help teams understand and act on the accessibility needs of people who might use, operate and be affected by a service
+* do research in an inclusive and accessible way, so that everyone who needs to can participate
 
 This guide covers the seven parts of our user research workflow.  For each part, it summarises the issues we consider and provides links to relevant guidance, both in the dxw Playbook and elsewhere.
 
