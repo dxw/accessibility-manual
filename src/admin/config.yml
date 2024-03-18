@@ -35,7 +35,7 @@ collection_defaults: &collection_defaults
       name: tags
       widget: select
       multiple: true
-      options: ["Content", "Design", "Development"]
+      options: ["Content", "Design", "Development", "Research"]
     - label: Body
       name: body
       widget: markdown
@@ -69,3 +69,9 @@ collections:
     label: Interaction design
     label_singular: Interaction design page
     folder: src/interaction-design
+
+  - <<: *collection_defaults
+    name: research
+    label: Research
+    label_singular: Research page
+    folder: src/research
