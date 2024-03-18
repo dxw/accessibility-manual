@@ -1,6 +1,6 @@
 ---
 title: Researching accessibility needs
-navigation_order: 100
+navigation_order: 1
 tags:
   - Research
 ---
