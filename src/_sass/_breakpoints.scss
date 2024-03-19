@@ -1,7 +1,14 @@
 $large: 800px;
+$v-large: 600px;
 
 @mixin on-large-screens {
   @media screen and (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin on-tall-screens {
+  @media screen and (min-height: $v-large) {
     @content;
   }
 }
