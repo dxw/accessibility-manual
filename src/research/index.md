@@ -45,7 +45,7 @@ We take care to build relationships with underrepresented groups who may not imm
 
 When we describe participant groups, and when we communicate with groups and individual participants, we take care to use inclusive language.
 
-[Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-protecting-privacy/) in User research in the dxw Playbook \
+[Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-and-protecting-privacy/) in User research in the dxw Playbook \
 [new guide on Using inclusive language]() in the dxw Playbook
 
 ## Do research activities
@@ -79,5 +79,5 @@ We take care of the research data we collect. This is particularly important whe
 
 ## Other guides
 
-[Accessibility guidance for User research](https://service-manual.nhs.uk/accessibility/user-research) in the NHS digital service manual
+[Accessibility guidance for User research](https://service-manual.nhs.uk/accessibility/user-research) in the NHS digital service manual \
 [User Researcher](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/user-researcher) in the DWP Accessibility Manual
