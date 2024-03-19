@@ -1,20 +1,22 @@
 @use "sass:math";
-
+@use "./navbar";
 @use "./colours";
 
 $font-size: 1em;
 
 .page-content {
   flex: 1;
-  padding: 0.5em 2em 5em;
+  padding: 0.5em 2em;
   font-size: $font-size;
   overflow-y: auto;
   scroll-behavior: smooth;
   will-change: scroll-position;
+  background-color: colours.$ivory;
 
   > div {
     margin: 0 auto;
     max-width: 40em;
+    padding-bottom: navbar.$height;
 
     > h1,
     > h2,

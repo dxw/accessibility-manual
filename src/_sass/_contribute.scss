@@ -22,3 +22,11 @@
     }
   }
 }
+
+@include breakpoints.on-tall-screens {
+  .contribute {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

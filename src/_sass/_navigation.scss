@@ -1,6 +1,7 @@
 @use "./breakpoints";
 @use "./colours";
 @use "./typography";
+@use "./navbar";
 
 .navigation {
   background-color: colours.$cream;
@@ -42,6 +43,10 @@
         margin-bottom: 1.5em;
       }
     }
+  }
+
+  > ul {
+    margin-bottom: 60px;
   }
 
   .navigation__section-link {
@@ -111,9 +116,34 @@
 
 @include breakpoints.on-large-screens {
   .navigation {
-    display: block;
     width: 21em;
     max-width: 30vw;
-    height: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 100px;
   }
+}
+
+.js-enabled .js-back-to-top__link {
+  position: fixed;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+  background-color: colours.$cream;
+  padding: 0.5em 0.5em 0.5em 0;
+  bottom: 0;
+  @media screen and (min-width: breakpoints.$large) and (min-height:breakpoints.$v-large) {
+    bottom: navbar.$height + 10px;
+  }
+}
+
+.js-enabled.show-btn .js-back-to-top__link {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.back-to-top__link svg {
+  margin-right: 0.5rem;
 }
