@@ -12,11 +12,11 @@ Setup you Mac to perform keyboard testing more easily, and access its built-in a
 
 The quickest way for many users to open and toggle on/off accessibility features in macOS is through the menu bar accessibility shortcut. This can be enabled by going to `System Settings > Control Centre > Other Modules > Accessibility Shortcuts` and check `Show in Menu Bar`.
 
-![Screenshot showing menu bar accessibility shortcut checkbox in the system settings on macOS](/src/assets/images/accessibility-shortcut-item.png)
+![Screenshot showing menu bar accessibility shortcut checkbox in the system settings on macOS](/assets/images/accessibility-shortcut-item.png)
 
 Next go to `System Settings > Accessibility > General > Shortcut` and check all the features to show in the shortcut menu.
 
-![Screenshot showing a list of shortcut checkboxes in the system settings on macOS](/src/assets/images/accessibility-shortcuts.png)
+![Screenshot showing a list of shortcut checkboxes in the system settings on macOS](/assets/images/accessibility-shortcuts.png)
 
 ## Keyboard testing
 
