@@ -50,7 +50,7 @@ When we describe participant groups, and when we communicate with groups and ind
 
 ### Recommended guidance
 
-* [Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-protecting-privacy/)
+* [Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-and-protecting-privacy/)
 * [new guide on Using inclusive language](#) in the dxw Playbook
 
 ## Do research activities
