@@ -7,7 +7,8 @@
         {% assign sections_by_title = section_group.items | sort_natural: "title" %}
         {% for section in sections_by_title %}
           <li class="navigation__section-link">
-            <a href="{{ section.url | relative_url }}" {% if section.url == page.url %}class="current" aria-current="page"{% endif %}>{{ section.title }}</a>
+            {% if section.navigation_title %}{% assign navigation_label = section.navigation_title %}{% else %}{% assign navigation_label = section.title %}{% endif %}
+            <a href="{{ section.url | relative_url }}" {% if section.url == page.url %}class="current" aria-current="page"{% endif %}>{{ navigation_label }}</a>
               {% assign subsection_groups_by_navigation_order = site.pages | children_of: section | group_by: "navigation_order" | sort: "name" %}
               {% if subsection_groups_by_navigation_order.size > 0 %}
                 {% if section.url == page.url or section.url == parent_page.url %}{% assign is_expanded = true%}{% else %}{% assign is_expanded = false %}{% endif %}
