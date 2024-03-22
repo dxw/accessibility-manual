@@ -4,13 +4,12 @@ navigation_order: 1
 tags:
   - Research
 ---
-
 As user researchers at dxw, we must:
 
 * do research to help teams understand and act on the accessibility needs of people who might use, operate and be affected by a service
 * do research in an inclusive and accessible way, so that everyone who needs to can participate
 
-This guide covers the seven parts of our user research workflow.  For each part, it summarises the issues we consider and provides links to relevant guidance, both in the dxw Playbook and elsewhere.
+This guide covers the seven parts of our user research workflow.  For each part, it summarises the issues we consider and provides links to relevant guidance. Unless indicated, the guidance is in the User research section of the dxw Playbook.
 
 ## Take part in project inception
 
@@ -18,9 +17,11 @@ During project inception we look out for aspects of a service that might be a ba
 
 As we identify and describe the groups of people who might use, operate and be affected by a service, we are careful to use inclusive language.
 
-[The structure of a project](https://playbook.dxw.com/work-we-do/building-services/#the-structure-of-a-project) in Building services in the dxw Playbook \
-[Running a discovery kick-off workshop](https://playbook.dxw.com/work-we-do/building-services/running-a-discovery-kick-off-workshop/) in Building services in the dxw Playbook \
-[new guide on Using inclusive language]() in the dxw Playbook
+### Recommended guidance
+
+* [The structure of a project](https://playbook.dxw.com/work-we-do/building-services/#the-structure-of-a-project) in Building services in the dxw Playbook
+* [Running a discovery kick-off workshop](https://playbook.dxw.com/work-we-do/building-services/running-a-discovery-kick-off-workshop/) in Building services in the dxw Playbook
+* [new guide on Using inclusive language](#) in the dxw Playbook
 
 ## Create and share research plans
 
@@ -32,10 +33,12 @@ As we choose what research activities we might do, we consider carefully how to 
 
 And this is where we consider the ethical and safety implications of our research. We may be discussing people’s experience of discrimination with existing services. Or visiting people in their homes so they can use their own assistive technology setup.
 
-[Creating and using research plans](https://playbook.dxw.com/user-research/creating-and-using-research-plans/) in User research in the dxw Playbook \
-[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook \
-[Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook \
-[Doing research safely](https://playbook.dxw.com/user-research/doing-research-safely/) in User research in the dxw Playbook
+### Recommended guidance
+
+* [Creating and using research plans](https://playbook.dxw.com/user-research/creating-and-using-research-plans/)
+* [Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/)
+* [Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/)
+* [Doing research safely](https://playbook.dxw.com/user-research/doing-research-safely/)
 
 ## Recruit people for research
 
@@ -45,22 +48,28 @@ We take care to build relationships with underrepresented groups who may not imm
 
 When we describe participant groups, and when we communicate with groups and individual participants, we take care to use inclusive language.
 
-[Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-and-protecting-privacy/) in User research in the dxw Playbook \
-[new guide on Using inclusive language]() in the dxw Playbook
+### Recommended guidance
+
+* [Recruiting research participants and protecting their privacy](https://playbook.dxw.com/user-research/recruiting-participants-and-protecting-privacy/)
+* [new guide on Using inclusive language](#) in the dxw Playbook
 
 ## Do research activities
 
 As we do our research activities, we make sure they are inclusive and accessible for our participants and our colleagues. This is particularly important when we are researching accessibility needs with disabled participants.
 
-[Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/) in User research in the dxw Playbook \
-[Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook
+### Recommended guidance
+
+* [Choosing and using research methods](https://playbook.dxw.com/user-research/choosing-and-using-research-methods/)
+* [Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/)
 
 ## Analyse research and produce findings
 
 As we do our analysis, we make sure that we do it in a way that is inclusive and accessible for our colleagues.
 
-[Choosing and using analysis and synthesis methods](https://playbook.dxw.com/user-research/choosing-and-using-analysis-and-synthesis-methods/) in User research in the dxw Playbook \
-[Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/) in User research in the dxw Playbook
+### Recommended guidance
+
+* [Choosing and using analysis and synthesis methods](https://playbook.dxw.com/user-research/choosing-and-using-analysis-and-synthesis-methods/)
+* [Making research activities inclusive and accessible](https://playbook.dxw.com/user-research/making-research-activities-inclusive-and-accessible/)
 
 ## Create and share outputs
 
@@ -68,16 +77,20 @@ When we create and share outputs we make sure that the reports, presentations an
 
 We also consider carefully what quotes, photos and video clips we use to illustrate our findings and recommendations. This is particularly important when participants have shared past experiences or details about themselves that they want to keep private. Or when photos and video clips show things that a participant would not want shared.
 
-[Sharing research activities and findings](https://playbook.dxw.com/user-research/sharing-research-activities-and-findings/) in User research in the dxw Playbook \
-[Creating content](https://accessibility.dxw.com/content/) in the dxw Accessibility Manual
+### Recommended guidance
+
+* [Sharing research activities and findings](https://playbook.dxw.com/user-research/sharing-research-activities-and-findings/)
+* [Creating content](https://accessibility.dxw.com/content/) in the dxw Accessibility Manual
 
 ## Take care of research data
 
 We take care of the research data we collect. This is particularly important when researching accessibility needs. Participants may have shared past experiences or details about themselves that they want to keep private.
 
-[Taking care of research data](https://playbook.dxw.com/user-research/taking-care-of-research-data/) in User research in the dxw Playbook
+### Recommended guidance
 
-## Other guides
+* [Taking care of research data](https://playbook.dxw.com/user-research/taking-care-of-research-data/)
 
-[Accessibility guidance for User research](https://service-manual.nhs.uk/accessibility/user-research) in the NHS digital service manual \
-[User Researcher](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/user-researcher) in the DWP Accessibility Manual
+## Other guidance
+
+* [Accessibility guidance for User research](https://service-manual.nhs.uk/accessibility/user-research) in the NHS digital service manual
+* [User Researcher](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/user-researcher) in the DWP Accessibility Manual
