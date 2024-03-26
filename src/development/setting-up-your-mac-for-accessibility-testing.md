@@ -22,4 +22,4 @@ Next go to `System Settings > Accessibility > General > Shortcut` and check all 
 
 To allow for full keyboard navigation of all focusable interactive elements in Firefox, open settings from the menu bar and check the option "Use the tab key to move focus between form controls and links".
 
-![Screenshot of browsing checkbox options for Firefox]()
+![Screenshot of browsing checkbox options for Firefox](/assets/images/firefox-browsing-options.png)
