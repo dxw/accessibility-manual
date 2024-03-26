@@ -4,9 +4,7 @@ permalink: /:path/:basename/
 tags:
   - Development
 ---
-Accessibility testing is one of the most important parts of your role. 
-
-You’ll always need to test, whether you’re working from an individual design or a library like the GOV.UK Design System and Frontend.
+Accessibility testing is a fundamental part of judging whether your work is ready for release.
 
 ## What to test
 
@@ -19,7 +17,6 @@ Check that your work 
 * flows and resizes appropriately for the screen size and viewport scale
 * uses valid markup with correct properties, states and roles that update when the page or component state changes
 * uses ARIA correctly
-
 
 Set up a checklist for all of your projects to make sure you test as many things as possible. 
 
