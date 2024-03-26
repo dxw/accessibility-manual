@@ -4,7 +4,7 @@ permalink: /:path/:basename/
 tags:
   - Development
 ---
-Setup you Mac to perform keyboard testing more easily, and access its built-in accessibility features more easily. 
+Set up your Mac to perform keyboard testing more easily, and access its built-in accessibility features more easily. 
 
 **Note:** This guide was written in 2024 on a Mac with macOS Sonoma installed. If you're using an older version of macOS then you may find this article from [A11Y Project](https://www.a11yproject.com/posts/macos-browser-keyboard-navigation/) more appropriate to help configure your settings.
 
