@@ -26,12 +26,12 @@ To allow for full keyboard navigation of all focusable interactive elements in F
 
 ## Keyboard testing in Chrome
 
-There's a similar setting in Chrome for enabling full keyboard navigation of all focusable interactive elements that's usually switched on by default. If it isn't then open Chrome Settings > Appearance and check the option, "Pressing Tab on a web page highlights links, as well as form fields".
+There's a similar setting in Chrome for enabling full keyboard navigation of all focusable interactive elements that's usually switched on by default. If it isn't then open Chrome `Settings > Appearance` and check the option, "Pressing Tab on a web page highlights links, as well as form fields".
 
 ![Screenshot of appearance checkbox options for Chrome](/assets/images/chrome-browsing-options.png)
 
 ## Keyboard testing in Safari
 
-In Safari you'll need to enable full keyboard navigation of all focusable interactive elements by going to Settings > Advanced in the menu bar and enabling the option "Press Tab to highlight each item on a web page".
+In Safari you'll need to enable full keyboard navigation of all focusable interactive elements by going to `Settings > Advanced` in the menu bar and enabling the option "Press Tab to highlight each item on a web page".
 
 ![Screenshot of advanced checkbox options for Safari](/src/assets/images/safari-browsing-options.png)
