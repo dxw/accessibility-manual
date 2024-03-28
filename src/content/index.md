@@ -1,5 +1,6 @@
 ---
-title: Creating content
+title: Creating accessible content
+navigation_title: Creating content
 navigation_order: 1
 tags:
   - Content

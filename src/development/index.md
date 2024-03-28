@@ -1,5 +1,6 @@
 ---
-title: Developing services
+title: Developing accessible services
+navigation_title: Developing services
 navigation_order: 1
 tags:
   - Development
