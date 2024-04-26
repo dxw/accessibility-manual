@@ -1,0 +1,12 @@
+@use "./colours";
+@use "./typography";
+
+.phase-banner {
+    background-color: colours.$yellow-light;
+    font-family: typography.$heading-font-family;
+    font-weight: typography.$heading-font-weight;
+    font-size: 1rem;
+    display: flex;
+    padding: 0 1rem;
+    margin: 0.67em 0;
+}
