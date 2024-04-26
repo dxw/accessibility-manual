@@ -81,4 +81,4 @@ But Hemingway also suggests removing ‘we think’ from the sentence “We thin
 
 In this example Readable wants to correct ‘regulatory’ to ‘governing’.
 
-![Readable suggesting that the user changes the word ‘regulatory’ to ‘governing’.](/src/assets/images/readable-example.png)
+![Readable suggesting that the user changes the word ‘regulatory’ to ‘governing’.](/assets/images/readable-example.png)
