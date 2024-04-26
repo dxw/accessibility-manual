@@ -66,7 +66,7 @@ Make sure that:
 
 You can get help improving your content by using tools like: 
 
-* [Grammarly](https://grammarly.com/), an app or browser extension that checks spelling and grammar
+* [Readable](https://readable.com/), a paid-for app that checks for content readability and language
 * [Hemingway](https://hemingwayapp.com/), a webpage or paid-for app that highlights issues with your content
 
 These tools are a good starting point for reviewing content, but their suggestions aren’t always right. Use these tools alongside user feedback and other insight into user behaviour. 
@@ -79,8 +79,6 @@ But Hemingway also suggests removing ‘we think’ from the sentence “We thin
 
 ![Hemingway markup suggesting that the user remove the words ‘we think’.](/assets/images/content-image1.png)
 
-In this example Grammarly wants to correct ‘industry’ to ‘industries’ in the sentence ‘we regulate industry to control emissions’, but the client specifically uses this language when describing its regulatory role. 
+In this example Readable wants to correct ‘regulatory’ to ‘governing’.
 
- 
-
-![Grammarly suggests changing ‘industry’ to ‘industries’ in the phrase ‘we regulate industry to control emissions’.](/assets/images/content-image2.png)
+![Readable suggesting that the user changes the word ‘regulatory’ to ‘governing’.](/src/assets/images/readable-example.png)
