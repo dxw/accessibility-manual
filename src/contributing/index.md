@@ -1,5 +1,6 @@
 ---
 title: Contributing to the dxw Accessibility Manual
+navigation_title: Contributing
 navigation_order: 2
 ---
 
