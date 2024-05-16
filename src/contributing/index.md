@@ -6,13 +6,13 @@ navigation_order: 2
 
 The dxw Accessibility Manual is public and anyone, inside or outside of dxw, can suggest changes to it. This means you!
 
-If you know how to suggest changes using GitHub, the repository is available at https://github.com/dxw/accessibility-manual
+If you know how to suggest changes using GitHub, the repository is available at <https://github.com/dxw/accessibility-manual>
 
 If you don't know how to use GitHub, you can suggest changes using our content management system, Netlify CMS, which does things on GitHub for you.
 
 ## What you'll need to suggest a change
 
-You will need a GitHub account. If you don’t already have one, then sign up at https://github.com/
+You will need a GitHub account. If you don’t already have one, then sign up at <https://github.com>
 
 You do not need to be added to the dxw GitHub organisation to be able to suggest changes.
 
@@ -54,7 +54,7 @@ Find the appropriate section under ‘Collections’ and select the ‘New' butt
 
 After a few minutes, you should be able to view a preview of the Accessibility Manual with your changes by clicking on the URL next to ‘😎 Browse the preview'. Your suggested changes will not be live yet. Your suggestions should be available to view on the GitHub Pull Requests page.
 
-Everyone’s suggested changes that are being reviewed are publicly available. Anyone can publicly comment on a suggested change. Only GitHub accounts that have been added to the dxw GitHub organisation and staff team can ‘merge’ a pull request and make it live. If you are not on this list and want to be, please email support@dxw.com with your GitHub username.
+Everyone’s suggested changes that are being reviewed are publicly available. Anyone can publicly comment on a suggested change. Only GitHub accounts that have been added to the dxw GitHub organisation and staff team can ‘merge’ a pull request and make it live. If you are not on this list and want to be, please email <support@dxw.com> with your GitHub username.
 
 To see the suggested changes, you can click the ‘Files changed’ tab to see lines of text that have been removed (in red) and lines of text that have been added (in green). Alternatively you can click on the URL next to ‘😎 Browse the preview’ to see what the Accessibility Manual will look like if this change is accepted.
 
