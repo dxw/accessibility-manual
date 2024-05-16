@@ -20,35 +20,35 @@ You do not need to be added to the dxw GitHub organisation to be able to suggest
 
 1. On the page you want to edit, select the yellow ‘Edit this page’ link
 
-Or if you prefer to use the admin backend directly, choose the page you want to change from the backend under 'Collections'.
+   Or if you prefer to use the admin backend directly, choose the page you want to change from the backend under 'Collections'.
 
-2. Log in with your GitHub account
+1. Log in with your GitHub account
 
-3. Select ‘fork the repo’ if you are asked whether you want to fork the repo
+1. Select ‘fork the repo’ if you are asked whether you want to fork the repo
 
-4. Make your edits in the ‘Rich Text’ editor
+1. Make your edits in the ‘Rich Text’ editor
 
-5. Select ‘Save’ at the top of the page
+1. Select ‘Save’ at the top of the page
 
-6. Select ‘Status: Draft’ and choose ‘In review’
+1. Select ‘Status: Draft’ and choose ‘In review’
 
 ## Creating a new page
 
 1. From the most relevant ‘parent’ for the new page, select the yellow ‘Add a new page here’ link
 
-Or if you prefer to use the admin backend directly, choose the page you want to change from the backend.
+   Or if you prefer to use the admin backend directly, choose the page you want to change from the backend.
 
-Find the appropriate section under ‘Collections’ and select the ‘New' button.
+   Find the appropriate section under ‘Collections’ and select the ‘New' button.
 
-2. Log in with your GitHub account
+1. Log in with your GitHub account
 
-3. Select ‘fork the repo’ if you are asked whether you want to fork the repo
+1. Select ‘fork the repo’ if you are asked whether you want to fork the repo
 
-4. Make your edits in the ‘Rich Text’ editor
+1. Make your edits in the ‘Rich Text’ editor
 
-5. Select ‘Save’ at the top of the page
+1. Select ‘Save’ at the top of the page
 
-6. Select ‘Status: Draft’ and choose ‘In review’
+1. Select ‘Status: Draft’ and choose ‘In review’
 
 ## Reviewing changes
 
