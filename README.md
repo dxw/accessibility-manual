@@ -1,5 +1,8 @@
 # Accessibility Manual
-(WIP) How we do accessibility at dxw
+Are you looking for the Accessibility Manual? Read it at accessibility.dxw.com.
+
+## What is this?
+The dxw Accessibility Manual's main purpose is to explain why accessibility is important at dxw, educate people on the principles of accessibility and give people practical advice on how to make services more accessible as they design and build.
 
 ## Development guide
 
