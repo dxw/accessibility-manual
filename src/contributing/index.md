@@ -1,6 +1,6 @@
 ---
 title: Contributing to the dxw Accessibility Manual
-navigation_order: 0
+navigation_order: 2
 ---
 
 The dxw Accessibility Manual is public and anyone, inside or outside of dxw, can suggest changes to it. This means you!
