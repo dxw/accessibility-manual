@@ -34,4 +34,4 @@ There's a similar setting in Chrome for enabling full keyboard navigation of all
 
 In Safari you'll need to enable full keyboard navigation of all focusable interactive elements by going to `Settings > Advanced` in the menu bar and enabling the option "Press Tab to highlight each item on a web page".
 
-![Screenshot of advanced checkbox options for Safari](/src/assets/images/safari-browsing-options.png)
+![Screenshot of advanced checkbox options for Safari](/assets/images/safari-browsing-options.png)
