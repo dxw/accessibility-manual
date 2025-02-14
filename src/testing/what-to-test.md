@@ -1,14 +1,15 @@
 ---
-title: Testing for accessibility
+title: What to test
 permalink: /:path/:basename/
+redirect_from: 
+  - /development/what-do-i-need-to-test
 tags:
   - Development
+  - Testing
 ---
 Accessibility testing is a fundamental part of judging whether your work is ready for release.
 
-## What to test
-
-Check that your work 
+Check that your work:
 
 * has [alt text (alternative text)](/content/designing-alt-text/) for any non-text content
 * has a [logical heading structure](https://accessibility.dxw.com/content/writing-useful-headings/)

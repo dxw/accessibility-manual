@@ -1,8 +1,10 @@
 ---
 title: Keyboard testing
 permalink: /:path/:basename/
+redirect_from: /development/keyboard-testing
 tags:
   - Development
+  - Testing
 ---
 ## Check for anything interactive
 

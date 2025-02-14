@@ -1,8 +1,10 @@
 ---
 title: Testing with a screen reader
 permalink: /:path/:basename/
+redirect_from: /development/testing-with-a-screen-reader/
 tags:
   - Development
+  - Testing
 ---
 Testing with a screen reader helps you to understand how it announces the contents and structure of a page.
 
