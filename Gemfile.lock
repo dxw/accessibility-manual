@@ -49,7 +49,7 @@ GEM
       bigdecimal
       rake (>= 13)
     hashery (2.1.2)
-    html-proofer (5.0.9)
+    html-proofer (5.0.10)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -61,7 +61,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    io-event (1.7.3)
+    io-event (1.7.5)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -85,7 +85,7 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.7.2)
+    json (2.7.6)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -135,7 +135,7 @@ GEM
     unicode-display_width (2.6.0)
     webrick (1.9.1)
     yell (2.2.2)
-    zeitwerk (2.7.1)
+    zeitwerk (2.7.2)
 
 PLATFORMS
   arm64-darwin-22
