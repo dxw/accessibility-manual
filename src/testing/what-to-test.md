@@ -6,6 +6,7 @@ redirect_from:
 tags:
   - Development
   - Testing
+navigation_order: 0
 ---
 Accessibility testing is a fundamental part of judging whether your work is ready for release.
 

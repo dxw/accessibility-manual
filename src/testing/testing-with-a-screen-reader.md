@@ -5,6 +5,7 @@ redirect_from: /development/testing-with-a-screen-reader/
 tags:
   - Development
   - Testing
+navigation_order: 2
 ---
 Testing with a screen reader helps you to understand how it announces the contents and structure of a page.
 

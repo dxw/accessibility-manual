@@ -5,6 +5,7 @@ redirect_from: /development/setting-up-your-mac-for-accessibility-testing
 tags:
   - Development
   - Testing
+navigation_order: 3
 ---
 Set up your Mac to perform keyboard testing more easily, and access its built-in accessibility features more easily. 
 
