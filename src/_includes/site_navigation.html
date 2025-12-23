@@ -22,12 +22,14 @@
                     {% assign subsections_by_title = subsection_group.items | sort_natural: "title" %}
                     {% for subsection in subsections_by_title %}
                       {% unless subsection.unrelatable %}
-                        <li>
-                          {% if subsection.navigation_title %}{% assign navigation_label = subsection.navigation_title %}{% else %}{% assign navigation_label = subsection.title %}{% endif %}
-                          <a href="{{ subsection.url }}" {% if subsection.url == page.url %}class="current" aria-current="page"{% endif %}>
-                            {{ navigation_label }}
-                          </a>
-                        </li>
+                      {% if subsection.navigation_title %}{% assign navigation_label = subsection.navigation_title %}{% else %}{% assign navigation_label = subsection.title %}{% endif %}
+                        {% if navigation_label %}
+                          <li>
+                            <a href="{{ subsection.url }}" {% if subsection.url == page.url %}class="current" aria-current="page"{% endif %}>
+                              {{ navigation_label }}
+                            </a>
+                          </li>
+                        {% endif %}
                       {% endunless %}
                     {% endfor %}
                   {% endfor %}
