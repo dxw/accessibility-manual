@@ -1,15 +1,21 @@
 ---
 title: Keyboard testing
 permalink: /:path/:basename/
+redirect_from: /development/keyboard-testing
 tags:
   - Development
+  - Testing
+navigation_order: 2
 ---
 ## Check for anything interactive
 
 When testing with a keyboard check that:
 
-* all interactive components on a page are consistent
-* the focus state is sufficiently visible for all components 
+* all elements can be reached using a keyboard, in a logical order
+* you can interact with the element in the expected way without using a mouse  
+* there are no keyboard traps  
+* all interactive components on a page are consistent in style and behaviour  
+* the focus state is sufficiently visible for all components  
 
 Test all interactive components, including:
 
@@ -20,9 +26,9 @@ Test all interactive components, including:
 
 ## How to test
 
-Use the `tab` key to move between interactive components. 
+Use the `tab` key to move between interactive components.  
 
-Use the `enter` key or spacebar to trigger components. 
+Use the `enter` key or spacebar to trigger components.  
 
 You may need to use the arrow keys to test some elements, such as dropdown option fields.
 
