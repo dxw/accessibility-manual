@@ -1,14 +1,14 @@
 ---
-title: Videos and images
+title: Describing videos and images
 permalink: /:path/:basename/
 tags:
   - Development
 ---
+You must [provide meaningful alternative text](/development/videos-and-images) to describe non-text content so you do not exclude people who cannot access visual content.
+
 ## Images
 
-Images should always have an alt property, whether the image has a purpose or not. 
-
-See [Designing alt text](/content/designing-alt-text/) for a guide on how to write good alt text.
+Images should always have an alt property, whether the image has a purpose or not. It may be blank if it does not have a purpose. See [Designing alt text](/content/designing-alt-text/) for a guide on how to write good alt text.
 
 For vector-based graphics that are coded as an inline SVG, the alternative text should only be placed in the title element. If the SVG is for decorative purpose only, then add the ARIA hidden and focusable properties.
 
